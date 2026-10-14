@@ -9,7 +9,7 @@ This repository contains the complete code, trained models and report for DSA520
 
 | Deliverable | Location |
 |---|---|
-| Report (PDF) | [`reports/DSA5208_Project2_Report.pdf`](reports/DSA5208_Project2_Report.pdf); editable text in `reports/GROUP_REPORT.md` |
+| Report (PDF) | [`report.pdf`](report.pdf) (same as `reports/DSA5208_Project2_Report.pdf`); editable text in `reports/GROUP_REPORT.md` |
 | Source code | `src/` (pipeline and models), `scripts/` (runners, figures, report), `configs/`, `tests/` |
 | Trained models | `models/final/c_available_v1/` (see [Trained models](#trained-models)) |
 | Saved predictions and sampled features | `data/predictions/c_available_v1/`, `data/features/c_available_v1/` |
@@ -128,7 +128,7 @@ Retraining is not needed to use or check the submitted models; the steps above c
 
 ```bash
 python -m pip install -r requirements-report.txt
-python -m scripts.build_group_report     # -> reports/DSA5208_Project2_Report.pdf and reports/GROUP_REPORT.md
+python -m scripts.build_group_report     # -> report.pdf, reports/DSA5208_Project2_Report.pdf, reports/GROUP_REPORT.md
 ```
 
 ## Repository layout

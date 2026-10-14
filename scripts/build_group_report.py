@@ -220,4 +220,5 @@ SimpleDocTemplate(str(pdf),pagesize=A4,rightMargin=48,leftMargin=48,topMargin=42
 Path('reports/GROUP_REPORT.md').write_text('\n'.join(md))
 import shutil
 shutil.copy2(pdf, 'reports/DSA5208_Project2_Report.pdf')
+shutil.copy2(pdf, 'report.pdf')
 print(pdf)

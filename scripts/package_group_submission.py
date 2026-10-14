@@ -20,7 +20,7 @@ def main():
     assert review['passed'] and review['v1_frozen_hashes_unchanged']
     assert Path('reports/DSA5208_Project2_Report.pdf').is_file()
     names=subprocess.check_output(['git','ls-files','--cached','--others','--exclude-standard','-z']).decode().split('\0')
-    allowed={'.gitignore','.gitattributes','README.md','requirements.txt','requirements-report.txt'}
+    allowed={'.gitignore','.gitattributes','README.md','report.pdf','requirements.txt','requirements-report.txt'}
     folders={'configs','docs','reports','scripts','src','tests'}
     paths={Path(n) for n in names if n and (n in allowed or Path(n).parts[0] in folders
               or n=='data/manifest.csv' or n.startswith('data/samples/'))}
