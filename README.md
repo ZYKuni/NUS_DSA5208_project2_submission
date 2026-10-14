@@ -142,9 +142,9 @@ tests/     pytest suite
 models/    trained Spark pipelines and calibrators
 data/      manifest of the source files, small samples, sampled features and saved predictions
 reports/   PDF report, result tables, figures and metric files
-docs/      methods and decisions (A/, C/), AI usage records; docs/internal/ holds development notes in Chinese
+docs/      methods and decisions (A/, C/); docs/internal/ holds development notes in Chinese
 ```
 
 ## AI usage
 
-AI tools assisted with code, experiments, tests, figures, report drafting, and the final review and revision of the report. The dated records are in `docs/ai_usage.md` and `docs/C/ai_usage.md`, and the declaration is in Section 13 of the report.
+AI tools assisted with code, experiments, tests, figures, report drafting, and the final review and revision of the report. The declaration is also in Section 13 of the report.

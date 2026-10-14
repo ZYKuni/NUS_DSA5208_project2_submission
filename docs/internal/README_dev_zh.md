@@ -243,7 +243,6 @@ usable = expanded.where("split IS NOT NULL AND label IS NOT NULL")
 - B 预测表接口：`docs/C/prediction_schema.md`。
 - B 可用夹具：`data/samples/predictions_fixture.csv`；仅合成数据，不得用于报告。
 - C 验证记录：`docs/C/c_foundation_validation.md`。
-- AI 使用记录：`docs/C/ai_usage.md`。
 
 ## C 完整 Task 2 运行、模型与交付
 
@@ -328,10 +327,6 @@ shasum -a 256 -c c_handoff_v1.zip.sha256
 - 保留下载来源与数据版本，后续模型另行归档并随课程要求提交；被 Git 忽略不等于可以省略模型交付。
 - 小组仍需人工核对最终报告/实际 AI 声明、接口适用范围，并提交 Canvas；本轮独立技术复核、全文报告及姓名学号已完成。
 
-## AI 使用声明
-
-本次仓库骨架、README 和依赖基线由 OpenAI Codex 辅助创建，使用者需核对课程要求并完成实际环境验证。后续 AI 使用需持续记录，最终报告按实际使用范围声明。
-C 的标签修复、特征/模型/评估/推理、实验运行及结果材料也使用了 Codex 辅助；详细范围见 `docs/C/ai_usage.md`，不得在最终报告中遗漏。
 
 ## B 分析与独立评估
 

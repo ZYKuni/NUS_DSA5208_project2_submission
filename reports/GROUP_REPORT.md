@@ -288,7 +288,7 @@ This PDF and its editable Markdown version reports/GROUP_REPORT.md are generated
 
 Throughout the report, A, B and C refer to the three members: A = Yikun Zhao (data acquisition, cleaning, quality audits, computing environment, integration and release); B = Zhou Jiahao (Task 1 exploration and figures, independent checks of the model results, and report writing/layout); C = Chen Zheke (Task 2 targets, features, Spark MLlib models, calibration, evaluation and the prediction interface).
 
-OpenAI Codex assisted task planning, code implementation, debugging, real-data processing and experiment execution, automated tests, independent metric checks, figure generation and report drafting/layout. For B, assistance included coverage reconciliation, threshold-boundary review, v1 reproduction, v2 post-hoc evaluation and this report. C's detailed log additionally records feature, calibration and guarded-interface assistance. AI tools were also used for the final review of the submission and the revision of this report. AI-assisted code was verified with automated tests and independent recomputation of the reported metrics, and the group is responsible for the submitted content. Dated records of AI usage are in docs/ai_usage.md and docs/C/ai_usage.md.
+OpenAI Codex assisted task planning, code implementation, debugging, real-data processing and experiment execution, automated tests, independent metric checks, figure generation and report drafting/layout. For B, assistance included coverage reconciliation, threshold-boundary review, v1 reproduction, v2 post-hoc evaluation and this report. For C, assistance also covered feature construction, calibration and the guarded prediction interface. AI tools were also used for the final review of the submission and the revision of this report. AI-assisted code was verified with automated tests and independent recomputation of the reported metrics, and the group is responsible for the submitted content.
 
 ### References and evidence index
 
@@ -298,7 +298,7 @@ OpenAI Codex assisted task planning, code implementation, debugging, real-data p
 
 [3] Team implementation and evidence: https://github.com/ZYKuni/NUS_DSA5208_project2_submission (submitted version). Methods: docs/A/ and docs/C/model_protocol.md. Original frozen experiments: reports/c_results/.
 
-[4] Task 1 aggregates: reports/b_results/csv/ and validation.json. Independent predictive audit and all report figures: reports/b_model_review/. AI records: docs/ai_usage.md and docs/C/ai_usage.md.
+[4] Task 1 aggregates: reports/b_results/csv/ and validation.json. Independent predictive audit and all report figures: reports/b_model_review/.
 
 [5] Apache Spark MLlib: https://spark.apache.org/docs/3.5.8/ml-guide.html. Runtime and dependency records are included with the repository; the implementation uses Spark 3.5.8.
 

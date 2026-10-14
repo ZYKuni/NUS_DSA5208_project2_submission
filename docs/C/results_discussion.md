@@ -81,12 +81,10 @@ Monthly errors also change with weather prevalence. For q=0, January and Novembe
 5. **Limited predictors and tuning.** No radar, neighboring-station features or other meteorological predictors are included. The grid is small. Unknown stations use a safe encoding but geographic generalization is not established. q>10 is flagged extrapolation.
 6. **No real-time service or full project completion claim.** Inference reads a local clean-history store. A production ingestion/monitoring service, Task 1 integration, full PDF and Canvas submission are outside this C run.
 
-## Computing, reproducibility and AI
+## Computing and reproducibility
 
 Execution used a local Apple M2 Pro (10 cores, 16 GiB RAM), macOS 15.7.7, Python 3.11.7, Spark 3.5.8 and Temurin JDK 17.0.20.1. ETL/model work used local[4], 4g driver memory and 32 shuffle partitions; reload/inference used local[2]/2g/4. Full cleaning took approximately 615 seconds, label/feature preparation 125.6 seconds, training plus validation 71.1 seconds and calibration 22.4 seconds. These are local elapsed times, not cluster scalability benchmarks. Full versions and configuration are recorded in [environment](../../reports/c_results/environment.md).
 
 All feature construction, fitting, calibration and predictive evaluation use Spark DataFrames/MLlib. Matplotlib renders only bounded aggregated results. All candidate pipelines and winning calibrators are saved. In a new Spark session, a served prediction matches persisted batch raw/calibrated outputs within 1e-12; unknown-station/no-history fallback also passes. See [reload evidence](../../reports/c_results/reload_verification.json). This is C's automated check, not a claim that A or B has independently accepted H2.
 
 After B's analysis merged into main, the combined suite passes **56 tests** (one dependency deprecation warning). C also ran B's independent metric implementation over all 201,816 M3 validation prediction rows: counts and confusion matrices match exactly, and Brier/log loss/ROC-AUC/PR-AUC match within 1e-12. See [cross-implementation evidence](../../reports/c_results/b_code_interoperability.json). The frozen source/model/feature hashes were preserved through this integration; no test-driven tuning occurred.
-
-OpenAI Codex assisted implementation, local experiment execution, testing and report preparation. Human team members must review and take responsibility for the submission. The final PDF must include the detailed [AI usage declaration](ai_usage.md).

@@ -56,5 +56,3 @@ v1 六训练阈值宏平均 Brier=0.01924842；v2 补充评估=0.01924570。这�
 ## 复现与交接
 
 运行 `source scripts/b_env.sh`、`python -m scripts.review_b_models`、`python -m scripts.plot_b_model_review`。需要已校验的 C v2 模型包中的 models/features/predictions 和 A 清洗数据。原始 v1 冻结文件校验保持不变。详细对账见 validation.json，重载见 independent_reload.json。
-
-仍需全组核实姓名学号、人工审阅和 AI 使用声明、确认最终版本及其适用范围，并在 Canvas 提交。官方题目未给出最低准确率、指定算法、云集群要求或页数；不把这些额外条件作为必需缺口。

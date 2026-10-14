@@ -123,6 +123,6 @@ for i,c in enumerate(read('error_cases.json'),1):
 lines += ['案例依据预先写入脚本的描述规则选择：q=10 的漏报中未来累计最大者，以及 q=0 的误报中概率最高者；按站点和时间确定并列顺序。用于解释错误，不用于调参。六个未来值用 Decimal 独立相加核对 C 的目标。灰色历史观测在预测时未发布，不能拿来解释为模型已经看到了它。',
  '', '## 复现与交接','',
  '运行 `source scripts/b_env.sh`、`python -m scripts.review_b_models`、`python -m scripts.plot_b_model_review`。需要已校验的 C v2 模型包中的 models/features/predictions 和 A 清洗数据。原始 v1 冻结文件校验保持不变。详细对账见 validation.json，重载见 independent_reload.json。',
- '', '仍需全组核实姓名学号、人工审阅和 AI 使用声明、确认最终版本及其适用范围，并在 Canvas 提交。官方题目未给出最低准确率、指定算法、云集群要求或页数；不把这些额外条件作为必需缺口。','']
+ '']
 (ROOT/'B_MODEL_RESULTS.md').write_text('\n'.join(lines))
 print('Rendered B model review figures and report')
