@@ -1,0 +1,20 @@
+{
+  "run_id": "c_available_v1",
+  "seed": 42,
+  "train_hash_buckets": 20,
+  "evaluation_hash_buckets": 50,
+  "hash_modulus": 10000,
+  "training_thresholds": [0, 0.2, 1, 2, 5, 10],
+  "evaluation_thresholds": [0, 0.2, 0.5, 1, 2, 3, 5, 10],
+  "lr_reg_params": [0.01, 0.1],
+  "lr_max_iter": 60,
+  "gbt_depths": [3, 5],
+  "gbt_max_iter": 30,
+  "selection": "minimum equal-weight Brier over the six training thresholds on 2023 Jan-Sep validation",
+  "calibration": "one pooled increasing IsotonicRegression per family winner, fitted only on 2023 Oct-Dec",
+  "decision_threshold": 0.5,
+  "availability": "event_time <= prediction_time AND available_at <= prediction_time AND available_at_basis = update_timestamps",
+  "history_minutes": 60,
+  "monotonic_postprocessing": "none; report violations and maximum increase",
+  "notes": "Sampling is deterministic and label-independent. 0.2% training origins, 0.5% validation/calibration/test origins. Keep every station/year eligible. Thresholds are experimental, not official rain categories. No test metric is used for model selection."
+}

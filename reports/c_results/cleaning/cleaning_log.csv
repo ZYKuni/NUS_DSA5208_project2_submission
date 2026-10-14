@@ -1,0 +1,9 @@
+source_year,kept,exact_duplicate,same_value_merged,conflict_superseded,conflict_unresolved,corrupt_record,station_missing,ts_unparseable,unaligned_timestamp,out_of_window,type_unit_unexpected,value_missing,value_non_numeric,value_negative,value_precision,raw_rows
+2017,5256020,0,86,0,0,0,0,0,0,0,0,0,0,0,0,5256106
+2018,4594246,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4594246
+2019,5026862,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5026862
+2020,6334473,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6334473
+2021,7044646,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7044646
+2022,7133230,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7133230
+2023,6742890,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6742890
+2024,6406260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6406260

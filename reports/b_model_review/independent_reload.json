@@ -1,0 +1,146 @@
+{
+  "passed": true,
+  "performed_on": "B local clean history and checksum-verified saved model",
+  "tolerance": 1e-12,
+  "outputs": [
+    {
+      "interface_version": "c_safe_v2",
+      "model_id": "M3_5",
+      "station_id": "S217",
+      "prediction_time": "2024-12-29T16:30:00+08:00",
+      "threshold_mm": 10.0,
+      "probability": 0.08060453400503778,
+      "raw_probability": 0.0665668915265506,
+      "unadjusted_calibrated_probability": 0.08060453400503778,
+      "calendar_fallback": false,
+      "fallback_reason": null,
+      "known_training_station": true,
+      "known_slots_60m": 10.0,
+      "staleness_minutes_capped": 10.0,
+      "threshold_extrapolation": false,
+      "supported_threshold_mm": [
+        0.0,
+        10.0
+      ],
+      "monotonicity_guaranteed": true,
+      "monotonicity_scope": "fixed station/time/history/model, q in [0,10]",
+      "adjustment": "fixed-six-knot equal-weight decreasing PAVA, linear interpolation in mm",
+      "curve_thresholds_mm": [
+        0.0,
+        0.2,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "curve_probabilities": [
+        0.9047619047619048,
+        0.75,
+        0.40476190476190477,
+        0.23346303501945526,
+        0.08060453400503778,
+        0.08060453400503778
+      ],
+      "boundary_probability": false,
+      "warnings": [],
+      "inference_mode": "available_at_proxy",
+      "evaluation_status": "v2 post-hoc interface; v1 holdout metrics do not apply"
+    },
+    {
+      "interface_version": "c_safe_v2",
+      "model_id": "M3_5",
+      "station_id": "S07",
+      "prediction_time": "2024-01-10T08:30:00+08:00",
+      "threshold_mm": 0.0,
+      "probability": 1.0,
+      "raw_probability": 0.929292831499525,
+      "unadjusted_calibrated_probability": 1.0,
+      "calendar_fallback": false,
+      "fallback_reason": null,
+      "known_training_station": true,
+      "known_slots_60m": 10.0,
+      "staleness_minutes_capped": 10.0,
+      "threshold_extrapolation": false,
+      "supported_threshold_mm": [
+        0.0,
+        10.0
+      ],
+      "monotonicity_guaranteed": true,
+      "monotonicity_scope": "fixed station/time/history/model, q in [0,10]",
+      "adjustment": "fixed-six-knot equal-weight decreasing PAVA, linear interpolation in mm",
+      "curve_thresholds_mm": [
+        0.0,
+        0.2,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "curve_probabilities": [
+        1.0,
+        1.0,
+        0.6666666666666666,
+        0.5106382978723404,
+        0.3051948051948052,
+        0.13782362639130974
+      ],
+      "boundary_probability": true,
+      "warnings": [
+        {
+          "code": "BOUNDARY_ESTIMATE",
+          "message": "Estimated probability is exactly 0 or 1; this is not certainty about the event. No arbitrary epsilon has been added."
+        }
+      ],
+      "inference_mode": "available_at_proxy",
+      "evaluation_status": "v2 post-hoc interface; v1 holdout metrics do not apply"
+    },
+    {
+      "interface_version": "c_safe_v2",
+      "model_id": "M1_0.01",
+      "station_id": "S35",
+      "prediction_time": "2024-01-08T08:40:00+08:00",
+      "threshold_mm": 1.0,
+      "probability": 0.02471368294153104,
+      "raw_probability": 0.029820936413339605,
+      "unadjusted_calibrated_probability": 0.02471368294153104,
+      "calendar_fallback": true,
+      "fallback_reason": "no_usable_published_history_60m",
+      "known_training_station": true,
+      "known_slots_60m": 0.0,
+      "staleness_minutes_capped": 65.0,
+      "threshold_extrapolation": false,
+      "supported_threshold_mm": [
+        0.0,
+        10.0
+      ],
+      "monotonicity_guaranteed": true,
+      "monotonicity_scope": "fixed station/time/history/model, q in [0,10]",
+      "adjustment": "fixed-six-knot equal-weight decreasing PAVA, linear interpolation in mm",
+      "curve_thresholds_mm": [
+        0.0,
+        0.2,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "curve_probabilities": [
+        0.04652001442481067,
+        0.04111986001749781,
+        0.02471368294153104,
+        0.011513619769727604,
+        0.007880617035546614,
+        0.0015712290502793297
+      ],
+      "boundary_probability": false,
+      "warnings": [
+        {
+          "code": "CALENDAR_FALLBACK",
+          "message": "No usable published observation in (t-60min,t]; using calendar-only model, not a history-based nowcast."
+        }
+      ],
+      "inference_mode": "available_at_proxy",
+      "evaluation_status": "v2 post-hoc interface; v1 holdout metrics do not apply"
+    }
+  ]
+}

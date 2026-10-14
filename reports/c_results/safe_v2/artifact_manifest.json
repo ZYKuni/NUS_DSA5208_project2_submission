@@ -1,0 +1,12 @@
+{
+  "path": "output/c_handoff_v2.zip",
+  "bytes": 19435432,
+  "sha256": "490bc95b6b282b43739fbf7ee8c920cbb1df14e5e572b8ad09f7fcb80aa046cd",
+  "members": 414,
+  "zip_crc_verified": true,
+  "v1_zip_sha256": "42b149156ee9e9ec99f203cb4a26f911ad4937852a7fb43731c559a1a04dc3a9",
+  "release_tag": "c-models-v2",
+  "release_url": "https://github.com/ZYKuni/NUS_DSA5208_project2/releases/tag/c-models-v2",
+  "download_url": "https://github.com/ZYKuni/NUS_DSA5208_project2/releases/download/c-models-v2/c_handoff_v2.zip",
+  "note": "Separate post-hoc guarded interface; original v1 models/evidence retained. v1 test scores are not v2 scores."
+}

@@ -1,0 +1,377 @@
+{
+  "passed": true,
+  "v1_frozen_hashes_unchanged": true,
+  "source_split": "2023 validation",
+  "v2_holdout_performance": "not measured; original v1 scores must not be reused",
+  "selection": "largest raw threshold increase for S50 with usable history in validation; no label selection",
+  "original_case": {
+    "station_id": "S50",
+    "prediction_time": "2023-02-20 15:45:00",
+    "threshold_mm": 2.0,
+    "raw_probability": 0.4708878099880174,
+    "jump": 0.08152562424471776
+  },
+  "separate_request_outputs": [
+    {
+      "interface_version": "c_safe_v2",
+      "model_id": "M3_5",
+      "station_id": "S50",
+      "prediction_time": "2023-02-20T15:45:00+08:00",
+      "threshold_mm": 0.0,
+      "probability": 0.7323943661971831,
+      "raw_probability": 0.7742390057717581,
+      "unadjusted_calibrated_probability": 0.7323943661971831,
+      "calendar_fallback": false,
+      "fallback_reason": null,
+      "known_training_station": true,
+      "known_slots_60m": 10.0,
+      "staleness_minutes_capped": 10.0,
+      "threshold_extrapolation": false,
+      "supported_threshold_mm": [
+        0.0,
+        10.0
+      ],
+      "monotonicity_guaranteed": true,
+      "monotonicity_scope": "fixed station/time/history/model, q in [0,10]",
+      "adjustment": "fixed-six-knot equal-weight decreasing PAVA, linear interpolation in mm",
+      "curve_thresholds_mm": [
+        0.0,
+        0.2,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "curve_probabilities": [
+        0.7323943661971831,
+        0.7323943661971831,
+        0.4523809523809524,
+        0.4523809523809524,
+        0.26229508196721313,
+        0.23346303501945526
+      ],
+      "boundary_probability": false,
+      "warnings": [],
+      "inference_mode": "available_at_proxy",
+      "evaluation_status": "v2 post-hoc interface; v1 holdout metrics do not apply"
+    },
+    {
+      "interface_version": "c_safe_v2",
+      "model_id": "M3_5",
+      "station_id": "S50",
+      "prediction_time": "2023-02-20T15:45:00+08:00",
+      "threshold_mm": 0.2,
+      "probability": 0.7323943661971831,
+      "raw_probability": 0.7825936285019337,
+      "unadjusted_calibrated_probability": 0.7323943661971831,
+      "calendar_fallback": false,
+      "fallback_reason": null,
+      "known_training_station": true,
+      "known_slots_60m": 10.0,
+      "staleness_minutes_capped": 10.0,
+      "threshold_extrapolation": false,
+      "supported_threshold_mm": [
+        0.0,
+        10.0
+      ],
+      "monotonicity_guaranteed": true,
+      "monotonicity_scope": "fixed station/time/history/model, q in [0,10]",
+      "adjustment": "fixed-six-knot equal-weight decreasing PAVA, linear interpolation in mm",
+      "curve_thresholds_mm": [
+        0.0,
+        0.2,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "curve_probabilities": [
+        0.7323943661971831,
+        0.7323943661971831,
+        0.4523809523809524,
+        0.4523809523809524,
+        0.26229508196721313,
+        0.23346303501945526
+      ],
+      "boundary_probability": false,
+      "warnings": [],
+      "inference_mode": "available_at_proxy",
+      "evaluation_status": "v2 post-hoc interface; v1 holdout metrics do not apply"
+    },
+    {
+      "interface_version": "c_safe_v2",
+      "model_id": "M3_5",
+      "station_id": "S50",
+      "prediction_time": "2023-02-20T15:45:00+08:00",
+      "threshold_mm": 0.5,
+      "probability": 0.6273893360160966,
+      "raw_probability": 0.7825936285019337,
+      "unadjusted_calibrated_probability": 0.7323943661971831,
+      "calendar_fallback": false,
+      "fallback_reason": null,
+      "known_training_station": true,
+      "known_slots_60m": 10.0,
+      "staleness_minutes_capped": 10.0,
+      "threshold_extrapolation": false,
+      "supported_threshold_mm": [
+        0.0,
+        10.0
+      ],
+      "monotonicity_guaranteed": true,
+      "monotonicity_scope": "fixed station/time/history/model, q in [0,10]",
+      "adjustment": "fixed-six-knot equal-weight decreasing PAVA, linear interpolation in mm",
+      "curve_thresholds_mm": [
+        0.0,
+        0.2,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "curve_probabilities": [
+        0.7323943661971831,
+        0.7323943661971831,
+        0.4523809523809524,
+        0.4523809523809524,
+        0.26229508196721313,
+        0.23346303501945526
+      ],
+      "boundary_probability": false,
+      "warnings": [],
+      "inference_mode": "available_at_proxy",
+      "evaluation_status": "v2 post-hoc interface; v1 holdout metrics do not apply"
+    },
+    {
+      "interface_version": "c_safe_v2",
+      "model_id": "M3_5",
+      "station_id": "S50",
+      "prediction_time": "2023-02-20T15:45:00+08:00",
+      "threshold_mm": 1.0,
+      "probability": 0.4523809523809524,
+      "raw_probability": 0.3893621857432996,
+      "unadjusted_calibrated_probability": 0.40476190476190477,
+      "calendar_fallback": false,
+      "fallback_reason": null,
+      "known_training_station": true,
+      "known_slots_60m": 10.0,
+      "staleness_minutes_capped": 10.0,
+      "threshold_extrapolation": false,
+      "supported_threshold_mm": [
+        0.0,
+        10.0
+      ],
+      "monotonicity_guaranteed": true,
+      "monotonicity_scope": "fixed station/time/history/model, q in [0,10]",
+      "adjustment": "fixed-six-knot equal-weight decreasing PAVA, linear interpolation in mm",
+      "curve_thresholds_mm": [
+        0.0,
+        0.2,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "curve_probabilities": [
+        0.7323943661971831,
+        0.7323943661971831,
+        0.4523809523809524,
+        0.4523809523809524,
+        0.26229508196721313,
+        0.23346303501945526
+      ],
+      "boundary_probability": false,
+      "warnings": [],
+      "inference_mode": "available_at_proxy",
+      "evaluation_status": "v2 post-hoc interface; v1 holdout metrics do not apply"
+    },
+    {
+      "interface_version": "c_safe_v2",
+      "model_id": "M3_5",
+      "station_id": "S50",
+      "prediction_time": "2023-02-20T15:45:00+08:00",
+      "threshold_mm": 2.0,
+      "probability": 0.4523809523809524,
+      "raw_probability": 0.4708878099880174,
+      "unadjusted_calibrated_probability": 0.5,
+      "calendar_fallback": false,
+      "fallback_reason": null,
+      "known_training_station": true,
+      "known_slots_60m": 10.0,
+      "staleness_minutes_capped": 10.0,
+      "threshold_extrapolation": false,
+      "supported_threshold_mm": [
+        0.0,
+        10.0
+      ],
+      "monotonicity_guaranteed": true,
+      "monotonicity_scope": "fixed station/time/history/model, q in [0,10]",
+      "adjustment": "fixed-six-knot equal-weight decreasing PAVA, linear interpolation in mm",
+      "curve_thresholds_mm": [
+        0.0,
+        0.2,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "curve_probabilities": [
+        0.7323943661971831,
+        0.7323943661971831,
+        0.4523809523809524,
+        0.4523809523809524,
+        0.26229508196721313,
+        0.23346303501945526
+      ],
+      "boundary_probability": false,
+      "warnings": [],
+      "inference_mode": "available_at_proxy",
+      "evaluation_status": "v2 post-hoc interface; v1 holdout metrics do not apply"
+    },
+    {
+      "interface_version": "c_safe_v2",
+      "model_id": "M3_5",
+      "station_id": "S50",
+      "prediction_time": "2023-02-20T15:45:00+08:00",
+      "threshold_mm": 3.0,
+      "probability": 0.38901899557637265,
+      "raw_probability": 0.4708878099880174,
+      "unadjusted_calibrated_probability": 0.5,
+      "calendar_fallback": false,
+      "fallback_reason": null,
+      "known_training_station": true,
+      "known_slots_60m": 10.0,
+      "staleness_minutes_capped": 10.0,
+      "threshold_extrapolation": false,
+      "supported_threshold_mm": [
+        0.0,
+        10.0
+      ],
+      "monotonicity_guaranteed": true,
+      "monotonicity_scope": "fixed station/time/history/model, q in [0,10]",
+      "adjustment": "fixed-six-knot equal-weight decreasing PAVA, linear interpolation in mm",
+      "curve_thresholds_mm": [
+        0.0,
+        0.2,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "curve_probabilities": [
+        0.7323943661971831,
+        0.7323943661971831,
+        0.4523809523809524,
+        0.4523809523809524,
+        0.26229508196721313,
+        0.23346303501945526
+      ],
+      "boundary_probability": false,
+      "warnings": [],
+      "inference_mode": "available_at_proxy",
+      "evaluation_status": "v2 post-hoc interface; v1 holdout metrics do not apply"
+    },
+    {
+      "interface_version": "c_safe_v2",
+      "model_id": "M3_5",
+      "station_id": "S50",
+      "prediction_time": "2023-02-20T15:45:00+08:00",
+      "threshold_mm": 5.0,
+      "probability": 0.26229508196721313,
+      "raw_probability": 0.25311847276141985,
+      "unadjusted_calibrated_probability": 0.26229508196721313,
+      "calendar_fallback": false,
+      "fallback_reason": null,
+      "known_training_station": true,
+      "known_slots_60m": 10.0,
+      "staleness_minutes_capped": 10.0,
+      "threshold_extrapolation": false,
+      "supported_threshold_mm": [
+        0.0,
+        10.0
+      ],
+      "monotonicity_guaranteed": true,
+      "monotonicity_scope": "fixed station/time/history/model, q in [0,10]",
+      "adjustment": "fixed-six-knot equal-weight decreasing PAVA, linear interpolation in mm",
+      "curve_thresholds_mm": [
+        0.0,
+        0.2,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "curve_probabilities": [
+        0.7323943661971831,
+        0.7323943661971831,
+        0.4523809523809524,
+        0.4523809523809524,
+        0.26229508196721313,
+        0.23346303501945526
+      ],
+      "boundary_probability": false,
+      "warnings": [],
+      "inference_mode": "available_at_proxy",
+      "evaluation_status": "v2 post-hoc interface; v1 holdout metrics do not apply"
+    },
+    {
+      "interface_version": "c_safe_v2",
+      "model_id": "M3_5",
+      "station_id": "S50",
+      "prediction_time": "2023-02-20T15:45:00+08:00",
+      "threshold_mm": 10.0,
+      "probability": 0.23346303501945526,
+      "raw_probability": 0.2231484676061547,
+      "unadjusted_calibrated_probability": 0.23346303501945526,
+      "calendar_fallback": false,
+      "fallback_reason": null,
+      "known_training_station": true,
+      "known_slots_60m": 10.0,
+      "staleness_minutes_capped": 10.0,
+      "threshold_extrapolation": false,
+      "supported_threshold_mm": [
+        0.0,
+        10.0
+      ],
+      "monotonicity_guaranteed": true,
+      "monotonicity_scope": "fixed station/time/history/model, q in [0,10]",
+      "adjustment": "fixed-six-knot equal-weight decreasing PAVA, linear interpolation in mm",
+      "curve_thresholds_mm": [
+        0.0,
+        0.2,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "curve_probabilities": [
+        0.7323943661971831,
+        0.7323943661971831,
+        0.4523809523809524,
+        0.4523809523809524,
+        0.26229508196721313,
+        0.23346303501945526
+      ],
+      "boundary_probability": false,
+      "warnings": [],
+      "inference_mode": "available_at_proxy",
+      "evaluation_status": "v2 post-hoc interface; v1 holdout metrics do not apply"
+    }
+  ],
+  "rejections": [
+    {
+      "time": "2025-01-01 12:00:00",
+      "q": 1,
+      "error": "UNSUPPORTED_TIME: this archive interface supports 2017–2024 SGT only; no silent calendar fallback"
+    },
+    {
+      "time": "2024-01-01 12:01:00",
+      "q": 1,
+      "error": "UNALIGNED_TIME: exact five-minute endpoint required; seconds/microseconds must be zero; no automatic rounding"
+    },
+    {
+      "time": "2024-01-01 12:00:00",
+      "q": 11,
+      "error": "UNSUPPORTED_THRESHOLD: supported q is [0, 10] mm; q>10 is not extrapolated or clamped"
+    }
+  ]
+}

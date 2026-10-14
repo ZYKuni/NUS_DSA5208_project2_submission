@@ -1,0 +1,482 @@
+{
+  "kind": "LR original-scale coefficient",
+  "warning": "Predictive association, not causal attribution; correlated variables share signal.",
+  "features": [
+    {
+      "name": "station_vector_S33",
+      "value": 0.15100795220775418
+    },
+    {
+      "name": "station_vector_S94",
+      "value": -0.1365243880927633
+    },
+    {
+      "name": "station_vector_S90",
+      "value": 0.04550834817635273
+    },
+    {
+      "name": "station_vector_S81",
+      "value": -0.035202039726737126
+    },
+    {
+      "name": "station_vector_S24",
+      "value": -0.15380688961509614
+    },
+    {
+      "name": "station_vector_S120",
+      "value": 0.04650680009449166
+    },
+    {
+      "name": "station_vector_S100",
+      "value": -0.09161549572805408
+    },
+    {
+      "name": "station_vector_S116",
+      "value": -0.04123091463036
+    },
+    {
+      "name": "station_vector_S900",
+      "value": -0.08433658783478286
+    },
+    {
+      "name": "station_vector_S66",
+      "value": 0.22221196891531575
+    },
+    {
+      "name": "station_vector_S79",
+      "value": 0.0279808974474015
+    },
+    {
+      "name": "station_vector_S77",
+      "value": 0.14827927130724755
+    },
+    {
+      "name": "station_vector_S113",
+      "value": 0.013202679365945479
+    },
+    {
+      "name": "station_vector_S107",
+      "value": -0.17614956946344187
+    },
+    {
+      "name": "station_vector_S112",
+      "value": -0.054105153543660904
+    },
+    {
+      "name": "station_vector_S114",
+      "value": 0.06741579154523442
+    },
+    {
+      "name": "station_vector_S43",
+      "value": 0.09664620876274925
+    },
+    {
+      "name": "station_vector_S08",
+      "value": -0.003087460217596253
+    },
+    {
+      "name": "station_vector_S119",
+      "value": 0.032602806341794535
+    },
+    {
+      "name": "station_vector_S123",
+      "value": -0.02873042369975209
+    },
+    {
+      "name": "station_vector_S104",
+      "value": 0.035071968627076316
+    },
+    {
+      "name": "station_vector_S115",
+      "value": 0.05389927239177981
+    },
+    {
+      "name": "station_vector_S78",
+      "value": -0.07962015484259236
+    },
+    {
+      "name": "station_vector_S44",
+      "value": 0.033414764540249574
+    },
+    {
+      "name": "station_vector_S50",
+      "value": 0.010019945667442375
+    },
+    {
+      "name": "station_vector_S118",
+      "value": -0.07028861512374916
+    },
+    {
+      "name": "station_vector_S35",
+      "value": -0.07449653961177026
+    },
+    {
+      "name": "station_vector_S89",
+      "value": -0.03329884998081063
+    },
+    {
+      "name": "station_vector_S40",
+      "value": -0.07588649411900399
+    },
+    {
+      "name": "station_vector_S88",
+      "value": -0.1625777161815696
+    },
+    {
+      "name": "station_vector_S121",
+      "value": -0.021741675252904415
+    },
+    {
+      "name": "station_vector_S84",
+      "value": 0.07368494867878606
+    },
+    {
+      "name": "station_vector_S69",
+      "value": 0.09280745830253229
+    },
+    {
+      "name": "station_vector_S109",
+      "value": 0.11456332922368145
+    },
+    {
+      "name": "station_vector_S71",
+      "value": 0.2000556879369625
+    },
+    {
+      "name": "station_vector_S106",
+      "value": -0.1866598641251055
+    },
+    {
+      "name": "station_vector_S108",
+      "value": -0.016181384023124804
+    },
+    {
+      "name": "station_vector_S82",
+      "value": -0.09727556409093856
+    },
+    {
+      "name": "station_vector_S111",
+      "value": 0.024731529614138593
+    },
+    {
+      "name": "station_vector_S215",
+      "value": -0.030480376304251176
+    },
+    {
+      "name": "station_vector_S11",
+      "value": -0.1302118926103324
+    },
+    {
+      "name": "station_vector_S61",
+      "value": -0.08067466739852798
+    },
+    {
+      "name": "station_vector_S92",
+      "value": 0.059791469046251156
+    },
+    {
+      "name": "station_vector_S122",
+      "value": -0.05632085613546374
+    },
+    {
+      "name": "station_vector_S29",
+      "value": -0.12362980136288217
+    },
+    {
+      "name": "station_vector_S117",
+      "value": -0.10602557324611882
+    },
+    {
+      "name": "station_vector_S07",
+      "value": -0.2029832242100275
+    },
+    {
+      "name": "station_vector_S46",
+      "value": -0.16265461557940059
+    },
+    {
+      "name": "station_vector_S91",
+      "value": 0.03823406246462873
+    },
+    {
+      "name": "station_vector_S64",
+      "value": -0.04003490812557024
+    },
+    {
+      "name": "station_vector_S60",
+      "value": -0.13649008275039778
+    },
+    {
+      "name": "station_vector_S217",
+      "value": -0.18070730894479267
+    },
+    {
+      "name": "station_vector_S211",
+      "value": -0.0016299840191675412
+    },
+    {
+      "name": "station_vector_S226",
+      "value": 0.16482939166649443
+    },
+    {
+      "name": "station_vector_S219",
+      "value": 0.22903028066547523
+    },
+    {
+      "name": "station_vector_S220",
+      "value": 0.36755425727083396
+    },
+    {
+      "name": "station_vector_S228",
+      "value": 0.050067035521379456
+    },
+    {
+      "name": "station_vector_S207",
+      "value": -0.12312693388963789
+    },
+    {
+      "name": "station_vector_S210",
+      "value": 0.09112745786977847
+    },
+    {
+      "name": "station_vector_S208",
+      "value": 0.2297077035656256
+    },
+    {
+      "name": "station_vector_S201",
+      "value": -0.033025377278200194
+    },
+    {
+      "name": "station_vector_S223",
+      "value": 0.07792125514794071
+    },
+    {
+      "name": "station_vector_S204",
+      "value": 0.08354913598911862
+    },
+    {
+      "name": "station_vector_S212",
+      "value": -0.09825272434605076
+    },
+    {
+      "name": "station_vector_S229",
+      "value": 0.2233813487397395
+    },
+    {
+      "name": "station_vector_S221",
+      "value": -0.12035355609296827
+    },
+    {
+      "name": "station_vector_S222",
+      "value": 0.14621043256484859
+    },
+    {
+      "name": "station_vector_S216",
+      "value": 0.31793942505285516
+    },
+    {
+      "name": "station_vector_S202",
+      "value": 0.1720919481210626
+    },
+    {
+      "name": "station_vector_S209",
+      "value": 0.21601673923759732
+    },
+    {
+      "name": "station_vector_S227",
+      "value": 0.04251393954131793
+    },
+    {
+      "name": "station_vector_S203",
+      "value": 0.15085500283098
+    },
+    {
+      "name": "station_vector_S213",
+      "value": -0.12709424280089476
+    },
+    {
+      "name": "station_vector_S230",
+      "value": 0.24542778977358715
+    },
+    {
+      "name": "station_vector_S214",
+      "value": -0.051245571694577705
+    },
+    {
+      "name": "station_vector_S224",
+      "value": -0.2117329355992579
+    },
+    {
+      "name": "station_vector_S218",
+      "value": 0.10671429844697278
+    },
+    {
+      "name": "station_vector_S36",
+      "value": -0.10437134356068441
+    },
+    {
+      "name": "station_vector_S205",
+      "value": 0.11558034933912997
+    },
+    {
+      "name": "station_vector_S55",
+      "value": 0.13370786367101484
+    },
+    {
+      "name": "station_vector_S101",
+      "value": 0.27863575059138485
+    },
+    {
+      "name": "station_vector_S102",
+      "value": -0.35967705424596863
+    },
+    {
+      "name": "station_vector_S105",
+      "value": -0.3869952187781196
+    },
+    {
+      "name": "station_vector_S63",
+      "value": -0.26656269305967745
+    },
+    {
+      "name": "station_vector_S96",
+      "value": -0.21445947803768284
+    },
+    {
+      "name": "station_vector_S24B",
+      "value": -0.7462978400863092
+    },
+    {
+      "name": "station_vector_S110",
+      "value": -0.2849833089245303
+    },
+    {
+      "name": "station_vector_S06",
+      "value": -0.10824062764678831
+    },
+    {
+      "name": "station_vector___unknown",
+      "value": 0.0
+    },
+    {
+      "name": "hour_sin",
+      "value": -0.08134602809436395
+    },
+    {
+      "name": "hour_cos",
+      "value": -0.2846831517073439
+    },
+    {
+      "name": "doy_sin",
+      "value": -0.046747157887262435
+    },
+    {
+      "name": "doy_cos",
+      "value": 0.05146997911656636
+    },
+    {
+      "name": "log_threshold",
+      "value": -0.7849225157903695
+    },
+    {
+      "name": "lag_5",
+      "value": 0.0
+    },
+    {
+      "name": "lag_10",
+      "value": 0.027652837724064516
+    },
+    {
+      "name": "lag_15",
+      "value": 0.17717815861132793
+    },
+    {
+      "name": "lag_30",
+      "value": -0.09127782694813487
+    },
+    {
+      "name": "lag_60",
+      "value": 0.05429572582447323
+    },
+    {
+      "name": "missing_5",
+      "value": 0.7661436867325565
+    },
+    {
+      "name": "missing_10",
+      "value": 0.09976981367933403
+    },
+    {
+      "name": "missing_15",
+      "value": 0.11273153800051663
+    },
+    {
+      "name": "missing_30",
+      "value": -0.033872271504740606
+    },
+    {
+      "name": "missing_60",
+      "value": -0.06387174185066843
+    },
+    {
+      "name": "sum_15",
+      "value": 0.027652837724064516
+    },
+    {
+      "name": "count_15",
+      "value": -0.09986007843299118
+    },
+    {
+      "name": "max_15",
+      "value": 0.027652837724064516
+    },
+    {
+      "name": "wet_15",
+      "value": 0.7130161688354512
+    },
+    {
+      "name": "sum_30",
+      "value": -0.026222621726181672
+    },
+    {
+      "name": "count_30",
+      "value": -0.03880109066957
+    },
+    {
+      "name": "max_30",
+      "value": 0.3001471646409738
+    },
+    {
+      "name": "wet_30",
+      "value": 0.48576621423610106
+    },
+    {
+      "name": "sum_60",
+      "value": -0.05003876056598799
+    },
+    {
+      "name": "count_60",
+      "value": -0.006929298759438093
+    },
+    {
+      "name": "max_60",
+      "value": 0.11438716663023109
+    },
+    {
+      "name": "wet_60",
+      "value": 0.21592099754866786
+    },
+    {
+      "name": "recent_change",
+      "value": 0.06470653051346426
+    },
+    {
+      "name": "staleness_minutes",
+      "value": 0.0006998864951682636
+    },
+    {
+      "name": "no_recent_data",
+      "value": -0.09800794402138886
+    }
+  ]
+}

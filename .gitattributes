@@ -1,0 +1,3 @@
+# Report artifacts must not be treated as textual diffs.
+*.pdf binary
+*.png binary

@@ -1,0 +1,38 @@
+[
+  {
+    "threshold_mm": 0.2,
+    "n": 69149,
+    "positive_count": 3036.0,
+    "positive_rate": 0.04390519024136286
+  },
+  {
+    "threshold_mm": 1.0,
+    "n": 69149,
+    "positive_count": 1648.0,
+    "positive_rate": 0.023832593385298414
+  },
+  {
+    "threshold_mm": 10.0,
+    "n": 69149,
+    "positive_count": 264.0,
+    "positive_rate": 0.0038178426296837263
+  },
+  {
+    "threshold_mm": 5.0,
+    "n": 69149,
+    "positive_count": 555.0,
+    "positive_rate": 0.008026146437403289
+  },
+  {
+    "threshold_mm": 0.0,
+    "n": 69149,
+    "positive_count": 4225.0,
+    "positive_rate": 0.06109994360005206
+  },
+  {
+    "threshold_mm": 2.0,
+    "n": 69149,
+    "positive_count": 1081.0,
+    "positive_rate": 0.015632908646545866
+  }
+]

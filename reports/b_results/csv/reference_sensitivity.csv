@@ -1,0 +1,4 @@
+coverage_threshold,station_count,required_years
+0.75,26,8
+0.8,20,8
+0.82,14,8

@@ -1,0 +1,3 @@
+# Optional PDF authoring dependencies; not required for Spark modelling.
+reportlab==4.4.9
+Pillow==12.3.0

@@ -1,0 +1,69 @@
+{
+  "runs": [
+    {
+      "name": "M1_0.01",
+      "family": "M1",
+      "parameter": 0.01,
+      "macro_brier": 0.027201147594117334,
+      "seconds": 9.075224161148071
+    },
+    {
+      "name": "M1_0.1",
+      "family": "M1",
+      "parameter": 0.1,
+      "macro_brier": 0.027679148964967773,
+      "seconds": 5.678387880325317
+    },
+    {
+      "name": "M2_0.01",
+      "family": "M2",
+      "parameter": 0.01,
+      "macro_brier": 0.021417247981063352,
+      "seconds": 6.789963960647583
+    },
+    {
+      "name": "M2_0.1",
+      "family": "M2",
+      "parameter": 0.1,
+      "macro_brier": 0.023296438239817464,
+      "seconds": 6.434010744094849
+    },
+    {
+      "name": "M3_3",
+      "family": "M3",
+      "parameter": 3,
+      "macro_brier": 0.01987614317778424,
+      "seconds": 14.289469242095947
+    },
+    {
+      "name": "M3_5",
+      "family": "M3",
+      "parameter": 5,
+      "macro_brier": 0.019709288685175904,
+      "seconds": 19.2745258808136
+    }
+  ],
+  "family_best": {
+    "M1": {
+      "name": "M1_0.01",
+      "family": "M1",
+      "parameter": 0.01,
+      "macro_brier": 0.027201147594117334,
+      "seconds": 9.075224161148071
+    },
+    "M2": {
+      "name": "M2_0.01",
+      "family": "M2",
+      "parameter": 0.01,
+      "macro_brier": 0.021417247981063352,
+      "seconds": 6.789963960647583
+    },
+    "M3": {
+      "name": "M3_5",
+      "family": "M3",
+      "parameter": 5,
+      "macro_brier": 0.019709288685175904,
+      "seconds": 19.2745258808136
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# NUS DSA5208 Project 2 — shared Python environment
+# Runtime contract: CPython 3.11.x + JDK 17 LTS (see README).
+# Python/JDK/hardware/Spark configuration cannot be installed by this file.
+# Install in a clean .venv: python -m pip install -r requirements.txt
+# These are pinned direct dependencies; record pip freeze for each formal run.
+# Full-scale processing, model training and evaluation must use Spark.
+
+# Spark SQL / DataFrames / MLlib, including the Python-to-JVM bridge.
+pyspark==3.5.8
+py4j==0.10.9.9
+
+# Numerical support and bounded aggregate tables, not full-data Pandas ETL.
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.3
+pyarrow==12.0.1
+
+# Static report figures.
+matplotlib==3.9.4
+seaborn==0.13.2
+
+# Official data download and YAML configuration.
+requests==2.32.5
+PyYAML==6.0.3
+
+# Time-window, leakage and model-persistence tests.
+pytest==8.4.2

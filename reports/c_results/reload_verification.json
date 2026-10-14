@@ -1,0 +1,53 @@
+{
+  "new_spark_session": true,
+  "batch_inference_absolute_tolerance": 1e-12,
+  "batch_record": {
+    "station_id": "S06",
+    "prediction_time": "2024-11-07 20:50:00",
+    "threshold_mm": 1.0,
+    "future_30m_mm": "0.000",
+    "label": 0.0,
+    "label_available": true,
+    "raw_probability": 0.03450686355283217,
+    "calibrated_probability": 0.0021463065641209086,
+    "prediction": 0,
+    "decision_threshold": 0.5,
+    "probability_source": "calibrated",
+    "split": "test",
+    "model_id": "M3_5",
+    "feature_complete": false,
+    "is_fixture": false,
+    "inference_mode": "available_at_proxy"
+  },
+  "inference_result": {
+    "station_id": "S06",
+    "prediction_time": "2024-11-07T20:50:00+08:00",
+    "threshold_mm": 1.0,
+    "probability": 0.0021463065641209086,
+    "raw_probability": 0.03450686355283217,
+    "model_id": "M3_5",
+    "calendar_fallback": false,
+    "known_training_station": true,
+    "threshold_extrapolation": false,
+    "known_slots_60m": 10.0,
+    "staleness_minutes_capped": 10.0,
+    "inference_mode": "available_at_proxy",
+    "monotonicity_guaranteed": false
+  },
+  "unknown_station_fallback": {
+    "station_id": "__unseen_station_smoke_test__",
+    "prediction_time": "2024-01-01T12:00:00+08:00",
+    "threshold_mm": 0.5,
+    "probability": 0.05627705627705628,
+    "raw_probability": 0.051724816270554475,
+    "model_id": "M1_0.01",
+    "calendar_fallback": true,
+    "known_training_station": false,
+    "threshold_extrapolation": false,
+    "known_slots_60m": 0.0,
+    "staleness_minutes_capped": 65.0,
+    "inference_mode": "available_at_proxy",
+    "monotonicity_guaranteed": false
+  },
+  "passed": true
+}

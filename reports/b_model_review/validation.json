@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-12T16:50:59.114483+08:00",
+  "source_revision": "75b93bb39adec6d77ead97a31f5afa53248559b8",
+  "executed_by": "B workspace, automated independent review; human sign-off not claimed",
+  "v1_checks": [
+    {
+      "metric_groups": 8,
+      "counts_and_confusion_exact": true,
+      "max_absolute_difference": 0.0,
+      "split": "validation",
+      "model": "M0",
+      "input_rows": 201816,
+      "origin_count": 25227
+    },
+    {
+      "metric_groups": 8,
+      "counts_and_confusion_exact": true,
+      "max_absolute_difference": 2.5424107263916085e-14,
+      "split": "validation",
+      "model": "M1_0.01",
+      "input_rows": 201816,
+      "origin_count": 25227
+    },
+    {
+      "metric_groups": 8,
+      "counts_and_confusion_exact": true,
+      "max_absolute_difference": 1.6986412276764895e-14,
+      "split": "validation",
+      "model": "M1_0.1",
+      "input_rows": 201816,
+      "origin_count": 25227
+    },
+    {
+      "metric_groups": 8,
+      "counts_and_confusion_exact": true,
+      "max_absolute_difference": 4.04121180963557e-14,
+      "split": "validation",
+      "model": "M2_0.01",
+      "input_rows": 201816,
+      "origin_count": 25227
+    },
+    {
+      "metric_groups": 8,
+      "counts_and_confusion_exact": true,
+      "max_absolute_difference": 6.039613253960852e-14,
+      "split": "validation",
+      "model": "M2_0.1",
+      "input_rows": 201816,
+      "origin_count": 25227
+    },
+    {
+      "metric_groups": 8,
+      "counts_and_confusion_exact": true,
+      "max_absolute_difference": 2.220446049250313e-16,
+      "split": "validation",
+      "model": "M3_3",
+      "input_rows": 201816,
+      "origin_count": 25227
+    },
+    {
+      "metric_groups": 8,
+      "counts_and_confusion_exact": true,
+      "max_absolute_difference": 3.3306690738754696e-16,
+      "split": "validation",
+      "model": "M3_5",
+      "input_rows": 201816,
+      "origin_count": 25227
+    },
+    {
+      "metric_groups": 8,
+      "counts_and_confusion_exact": true,
+      "max_absolute_difference": 0.0,
+      "split": "test",
+      "model": "M0",
+      "input_rows": 254384,
+      "origin_count": 31798
+    },
+    {
+      "metric_groups": 16,
+      "counts_and_confusion_exact": true,
+      "max_absolute_difference": 5.773159728050814e-14,
+      "split": "test",
+      "model": "M1_0.01",
+      "input_rows": 254384,
+      "origin_count": 31798
+    },
+    {
+      "metric_groups": 16,
+      "counts_and_confusion_exact": true,
+      "max_absolute_difference": 3.8413716652030416e-14,
+      "split": "test",
+      "model": "M2_0.01",
+      "input_rows": 254384,
+      "origin_count": 31798
+    },
+    {
+      "metric_groups": 16,
+      "counts_and_confusion_exact": true,
+      "max_absolute_difference": 2.220446049250313e-16,
+      "split": "test",
+      "model": "M3_5",
+      "input_rows": 254384,
+      "origin_count": 31798
+    },
+    {
+      "metric_groups": 16,
+      "counts_and_confusion_exact": true,
+      "max_absolute_difference": 2.1149748619109232e-14,
+      "split": "test",
+      "model": "serving",
+      "input_rows": 254384,
+      "origin_count": 31798
+    }
+  ],
+  "v1_frozen_hashes_unchanged": true,
+  "artifact_sha256": "490bc95b6b282b43739fbf7ee8c920cbb1df14e5e572b8ad09f7fcb80aa046cd",
+  "v2_protocol": "fixed existing C PAVA/interpolation; same 2024 sample; post-hoc after holdout opened; no fit/selection/tuning",
+  "v2_domain_checks_passed": true,
+  "seconds": 104.80906891822815,
+  "environment": {
+    "python": "3.11.16",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "spark": "3.5.8",
+    "master": "local[4]",
+    "driver_memory": "4g",
+    "shuffle_partitions": 8
+  },
+  "review_code_sha256": {
+    "/Users/arlo/nus/DSA5208/project2/NUS_DSA5208_project2/scripts/review_b_models.py": "78f091e9dafbb217253e7b7caa376de40d339f3cd1147e745c267c3888cd1899",
+    "src/b_analysis/adapters.py": "66973863b08fc8c628e3e87fbefdb19b2e839148dcfee46fe03aecfd0f3a3782",
+    "src/b_analysis/evaluation.py": "20eb06b61047d122e9762d16476487829eca520d920c2d452f2538b44e9f3b75",
+    "src/predict_safe.py": "1290a4187ce28782cf154f2ef48faa299b17e96df226eaef2691dec5921c9cf6"
+  }
+}

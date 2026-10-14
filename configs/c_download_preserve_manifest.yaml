@@ -1,0 +1,72 @@
+# Download-only copy for verifying delivered frozen models without changing their data/manifest.csv.
+# NUS DSA5208 Project 2 — shared configuration.
+# Paths are relative to the repository root.
+
+project:
+  timezone: Asia/Singapore
+  seed: 42
+
+paths:
+  raw_dir: data/raw
+  manifest: logs/c_reload_download_manifest.csv
+  interim_dir: data/interim          # parsed raw rows (Parquet), rebuilt from raw
+  clean_dir: data/clean              # clean_rainfall, quarantine, conflicts, stations
+  quality_dir: data/clean/quality    # coverage tables (Parquet)
+  samples_dir: data/samples
+  tables_dir: reports/tables
+  logs_dir: logs
+
+# Official source: https://data.gov.sg/collections/2279/view
+# The collection also has a 2016 dataset (2016-12-02..03) that is not used.
+source:
+  collection_id: "2279"
+  metadata_url: https://api-production.data.gov.sg/v2/public/api/datasets/{dataset_id}/metadata
+  initiate_url: https://api-open.data.gov.sg/v1/public/api/datasets/{dataset_id}/initiate-download
+  poll_url: https://api-open.data.gov.sg/v1/public/api/datasets/{dataset_id}/poll-download
+  # Optional: export DATA_GOV_SG_API_KEY to raise the API rate limit.
+  api_key_env: DATA_GOV_SG_API_KEY
+  datasets:
+    2017: d_1990a5a1aeaf3dd243cf4dae294a61c4
+    2018: d_024fb501ce7092b71bb713eaf54fa7eb
+    2019: d_61995f092320e7155b7528050880b502
+    2020: d_9e7de44094f876f6804b8b5bcee45c81
+    2021: d_3b41598f74f1f11fc3430348fea51af5
+    2022: d_42d64cc6c176ace1c52fbb40b9ede302
+    2023: d_f864cc30d58b467db83659ad17c737bf
+    2024: d_a0b69d3e02576a1fd0ab673e71f83507
+  expected_columns: [date, timestamp, update_timestamp, station_id, station_name,
+                     station_device_id, location_longitude, location_latitude,
+                     reading_update_timestamp, reading_value, reading_type, reading_unit]
+
+cleaning:
+  # Study window on the aligned slot time (SGT), [start, end).
+  window_start: "2017-01-01 00:00:00"
+  window_end: "2025-01-01 00:00:00"
+  slot_seconds: 300
+  # Assumption (docs/A/time_semantics.md): `timestamp` labels the END of a 5-minute
+  # accumulation interval. A timestamp whose seconds-of-slot offset r = epoch % 300
+  # satisfies r >= 300 - snap_up_max_seconds is moved UP to the next boundary
+  # (e.g. 08:04:59 -> 08:05:00); r <= snap_down_max_seconds is moved DOWN.
+  # Everything else is quarantined as `unaligned_timestamp`.
+  # Re-check these after `data_quality.py --stage raw` (time_phase_by_year.csv).
+  snap_up_max_seconds: 1
+  snap_down_max_seconds: 0
+  allowed_reading_types: ["TB1 Rainfall 5 Minute Total F"]
+  allowed_units: ["mm"]
+  value_decimal: "decimal(10,3)"
+  # Readings with >3 decimals (e.g. 8.71201, 9.39999; 118-377 rows/year) look like
+  # float artefacts. "round": keep, rounded half-up to 3 dp, value_rounded=true.
+  # "quarantine": reject as value_precision.
+  excess_precision: round
+  # Values above this are kept but listed in reports/tables/extreme_candidates.csv.
+  extreme_review_mm: 30.0
+
+spark:
+  master: "local[*]"
+  driver_memory: "6g"            # raise to ~12g on a 32 GB machine
+  shuffle_partitions: 64
+  extra:
+    spark.sql.session.timeZone: Asia/Singapore
+    spark.sql.legacy.timeParserPolicy: CORRECTED
+    spark.sql.ansi.enabled: "false"
+    spark.sql.parquet.compression.codec: snappy

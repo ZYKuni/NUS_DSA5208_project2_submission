@@ -1,0 +1,4801 @@
+{
+  "metrics": [
+    {
+      "threshold_mm": 0.0,
+      "n": 25227,
+      "positive_count": 1691.0,
+      "positive_rate": 0.0670313552939311,
+      "brier": 0.06367621779836581,
+      "log_loss": 0.25970020765784696,
+      "tp": 0,
+      "fp": 0,
+      "tn": 23536,
+      "fn": 1691,
+      "roc_auc": 0.6667662578428469,
+      "pr_auc": 0.11166624645097652,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "threshold_mm": 0.2,
+      "n": 25227,
+      "positive_count": 1259.0,
+      "positive_rate": 0.049906845839774845,
+      "brier": 0.04766654483650253,
+      "log_loss": 0.2015230382114547,
+      "tp": 0,
+      "fp": 0,
+      "tn": 23968,
+      "fn": 1259,
+      "roc_auc": 0.6876183070676188,
+      "pr_auc": 0.09422318721880335,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "threshold_mm": 0.5,
+      "n": 25227,
+      "positive_count": 938.0,
+      "positive_rate": 0.0371823839537004,
+      "brier": 0.03576509444249618,
+      "log_loss": 0.1582038502883719,
+      "tp": 0,
+      "fp": 0,
+      "tn": 24289,
+      "fn": 938,
+      "roc_auc": 0.6791194448582565,
+      "pr_auc": 0.0684095414065237,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "threshold_mm": 1.0,
+      "n": 25227,
+      "positive_count": 671.0,
+      "positive_rate": 0.026598485749395488,
+      "brier": 0.025817411440779685,
+      "log_loss": 0.12133827494266217,
+      "tp": 0,
+      "fp": 0,
+      "tn": 24556,
+      "fn": 671,
+      "roc_auc": 0.6788551560968871,
+      "pr_auc": 0.0492944694014122,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "threshold_mm": 2.0,
+      "n": 25227,
+      "positive_count": 417.0,
+      "positive_rate": 0.016529908431442503,
+      "brier": 0.016298888058054264,
+      "log_loss": 0.08524910248281257,
+      "tp": 0,
+      "fp": 0,
+      "tn": 24810,
+      "fn": 417,
+      "roc_auc": 0.6563976388417715,
+      "pr_auc": 0.027302895279191747,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "threshold_mm": 3.0,
+      "n": 25227,
+      "positive_count": 308.0,
+      "positive_rate": 0.01220914099972252,
+      "brier": 0.012181460259199249,
+      "log_loss": 0.06910958923503152,
+      "tp": 0,
+      "fp": 0,
+      "tn": 24919,
+      "fn": 308,
+      "roc_auc": 0.6409738982875929,
+      "pr_auc": 0.01836270882773668,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "threshold_mm": 5.0,
+      "n": 25227,
+      "positive_count": 204.0,
+      "positive_rate": 0.008086573908907123,
+      "brier": 0.00821642460778528,
+      "log_loss": 0.0529100825951972,
+      "tp": 0,
+      "fp": 0,
+      "tn": 25023,
+      "fn": 204,
+      "roc_auc": 0.6483149228200278,
+      "pr_auc": 0.012212555125329238,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "threshold_mm": 10.0,
+      "n": 25227,
+      "positive_count": 105.0,
+      "positive_rate": 0.004162207158996314,
+      "brier": 0.004399407048319052,
+      "log_loss": 0.036427653172388635,
+      "tp": 0,
+      "fp": 0,
+      "tn": 25122,
+      "fn": 105,
+      "roc_auc": 0.6521614521136924,
+      "pr_auc": 0.006480577508466395,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  ],
+  "reliability": [
+    {
+      "threshold_mm": 5.0,
+      "bin": 0,
+      "n": 25227,
+      "mean_probability": 0.022479228545622773,
+      "event_rate": 0.008086573908907123
+    },
+    {
+      "threshold_mm": 10.0,
+      "bin": 0,
+      "n": 25227,
+      "mean_probability": 0.020252169565154566,
+      "event_rate": 0.004162207158996314
+    },
+    {
+      "threshold_mm": 1.0,
+      "bin": 0,
+      "n": 25227,
+      "mean_probability": 0.027140501503935315,
+      "event_rate": 0.026598485749395488
+    },
+    {
+      "threshold_mm": 0.2,
+      "bin": 0,
+      "n": 25227,
+      "mean_probability": 0.0296160527424016,
+      "event_rate": 0.049906845839774845
+    },
+    {
+      "threshold_mm": 2.0,
+      "bin": 0,
+      "n": 25227,
+      "mean_probability": 0.025319826014265773,
+      "event_rate": 0.016529908431442503
+    },
+    {
+      "threshold_mm": 0.0,
+      "bin": 0,
+      "n": 25227,
+      "mean_probability": 0.03055156324949894,
+      "event_rate": 0.0670313552939311
+    },
+    {
+      "threshold_mm": 0.5,
+      "bin": 0,
+      "n": 25227,
+      "mean_probability": 0.02850882245989821,
+      "event_rate": 0.0371823839537004
+    },
+    {
+      "threshold_mm": 3.0,
+      "bin": 0,
+      "n": 25227,
+      "mean_probability": 0.024100737138341457,
+      "event_rate": 0.01220914099972252
+    }
+  ],
+  "monotonicity": {
+    "pairs": 176589,
+    "violations": 0,
+    "max_increase": 0.0
+  },
+  "by_group": {
+    "station_id": [
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S102",
+        "n": 71,
+        "positive_rate": 0.056338028169014086,
+        "brier": 0.05398822154940626
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S120",
+        "n": 389,
+        "positive_rate": 0.05141388174807198,
+        "brier": 0.04900574218522886
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S228",
+        "n": 404,
+        "positive_rate": 0.07178217821782178,
+        "brier": 0.06820265228068018
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S40",
+        "n": 356,
+        "positive_rate": 0.06741573033707865,
+        "brier": 0.06405254487239168
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S77",
+        "n": 377,
+        "positive_rate": 0.034482758620689655,
+        "brier": 0.033238388789153285
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S79",
+        "n": 390,
+        "positive_rate": 0.05384615384615385,
+        "brier": 0.05134746617402358
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S08",
+        "n": 386,
+        "positive_rate": 0.010362694300518135,
+        "brier": 0.0104538300215837
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S106",
+        "n": 230,
+        "positive_rate": 0.008695652173913044,
+        "brier": 0.0087668393052414
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S107",
+        "n": 368,
+        "positive_rate": 0.043478260869565216,
+        "brier": 0.04175723545190319
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S112",
+        "n": 345,
+        "positive_rate": 0.005797101449275362,
+        "brier": 0.005929414723707257
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S115",
+        "n": 314,
+        "positive_rate": 0.01592356687898089,
+        "brier": 0.0157197450873543
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S118",
+        "n": 377,
+        "positive_rate": 0.005305039787798408,
+        "brier": 0.00565699910908666
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S119",
+        "n": 358,
+        "positive_rate": 0.025139664804469275,
+        "brier": 0.024383441449559836
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S213",
+        "n": 384,
+        "positive_rate": 0.026041666666666668,
+        "brier": 0.025294617210784284
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S221",
+        "n": 370,
+        "positive_rate": 0.005405405405405406,
+        "brier": 0.005557186685248283
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S230",
+        "n": 395,
+        "positive_rate": 0.007594936708860759,
+        "brier": 0.007854094745528074
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S36",
+        "n": 18,
+        "positive_rate": 0.0,
+        "brier": 0.0003914858425580548
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S71",
+        "n": 371,
+        "positive_rate": 0.05390835579514825,
+        "brier": 0.05150069112365269
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S77",
+        "n": 377,
+        "positive_rate": 0.015915119363395226,
+        "brier": 0.015713352455278516
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S118",
+        "n": 377,
+        "positive_rate": 0.034482758620689655,
+        "brier": 0.03320946248696164
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S201",
+        "n": 359,
+        "positive_rate": 0.033426183844011144,
+        "brier": 0.032263070985930474
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S209",
+        "n": 362,
+        "positive_rate": 0.03867403314917127,
+        "brier": 0.03705118831009113
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S69",
+        "n": 392,
+        "positive_rate": 0.061224489795918366,
+        "brier": 0.058215826541846136
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S89",
+        "n": 378,
+        "positive_rate": 0.031746031746031744,
+        "brier": 0.030708541735401267
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S94",
+        "n": 370,
+        "positive_rate": 0.04054054054054054,
+        "brier": 0.03894433784478531
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S08",
+        "n": 386,
+        "positive_rate": 0.0,
+        "brier": 0.0004122390372903268
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S114",
+        "n": 400,
+        "positive_rate": 0.005,
+        "brier": 0.005288163882670401
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S117",
+        "n": 366,
+        "positive_rate": 0.00273224043715847,
+        "brier": 0.002996758181428456
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S218",
+        "n": 410,
+        "positive_rate": 0.007317073170731708,
+        "brier": 0.007501677716782302
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S44",
+        "n": 301,
+        "positive_rate": 0.013289036544850499,
+        "brier": 0.013317261590204599
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S81",
+        "n": 380,
+        "positive_rate": 0.018421052631578946,
+        "brier": 0.018084904998533085
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S114",
+        "n": 400,
+        "positive_rate": 0.0625,
+        "brier": 0.05947751521269619
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S211",
+        "n": 408,
+        "positive_rate": 0.0661764705882353,
+        "brier": 0.06279755407018335
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S07",
+        "n": 246,
+        "positive_rate": 0.0040650406504065045,
+        "brier": 0.004274881596684291
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S102",
+        "n": 71,
+        "positive_rate": 0.028169014084507043,
+        "brier": 0.027361079299204512
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S117",
+        "n": 366,
+        "positive_rate": 0.00546448087431694,
+        "brier": 0.005682192409882379
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S210",
+        "n": 378,
+        "positive_rate": 0.026455026455026454,
+        "brier": 0.025656480653971667
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S214",
+        "n": 404,
+        "positive_rate": 0.0049504950495049506,
+        "brier": 0.00526400959482323
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S217",
+        "n": 378,
+        "positive_rate": 0.007936507936507936,
+        "brier": 0.007980406591392432
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S218",
+        "n": 410,
+        "positive_rate": 0.05121951219512195,
+        "brier": 0.04878121449966164
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S36",
+        "n": 18,
+        "positive_rate": 0.0,
+        "brier": 0.00048237463130609067
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S60",
+        "n": 391,
+        "positive_rate": 0.0025575447570332483,
+        "brier": 0.002823057629592328
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S88",
+        "n": 370,
+        "positive_rate": 0.002702702702702703,
+        "brier": 0.002956743798919466
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S205",
+        "n": 391,
+        "positive_rate": 0.08184143222506395,
+        "brier": 0.07738244890598112
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S89",
+        "n": 378,
+        "positive_rate": 0.06349206349206349,
+        "brier": 0.06050813490015006
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S07",
+        "n": 246,
+        "positive_rate": 0.024390243902439025,
+        "brier": 0.023750354394204105
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S08",
+        "n": 386,
+        "positive_rate": 0.03626943005181347,
+        "brier": 0.03495892233989736
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S109",
+        "n": 357,
+        "positive_rate": 0.011204481792717087,
+        "brier": 0.01124802363664597
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S114",
+        "n": 400,
+        "positive_rate": 0.015,
+        "brier": 0.014876764130011684
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S117",
+        "n": 366,
+        "positive_rate": 0.02185792349726776,
+        "brier": 0.021337547202275056
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S205",
+        "n": 391,
+        "positive_rate": 0.028132992327365727,
+        "brier": 0.02733245508593721
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S207",
+        "n": 387,
+        "positive_rate": 0.012919896640826873,
+        "brier": 0.012795630597573953
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S224",
+        "n": 362,
+        "positive_rate": 0.019337016574585635,
+        "brier": 0.018993890957465245
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S230",
+        "n": 395,
+        "positive_rate": 0.010126582278481013,
+        "brier": 0.010313937490558577
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S61",
+        "n": 91,
+        "positive_rate": 0.04395604395604396,
+        "brier": 0.04242405019534335
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S106",
+        "n": 230,
+        "positive_rate": 0.1,
+        "brier": 0.09479855234533237
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S117",
+        "n": 366,
+        "positive_rate": 0.060109289617486336,
+        "brier": 0.057323684262517445
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S204",
+        "n": 392,
+        "positive_rate": 0.04846938775510204,
+        "brier": 0.04624911643476851
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S211",
+        "n": 408,
+        "positive_rate": 0.0661764705882353,
+        "brier": 0.0628728953813564
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S222",
+        "n": 393,
+        "positive_rate": 0.061068702290076333,
+        "brier": 0.05808699513754149
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S229",
+        "n": 364,
+        "positive_rate": 0.07967032967032966,
+        "brier": 0.07531110866049497
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S102",
+        "n": 71,
+        "positive_rate": 0.0,
+        "brier": 0.0004323974159366727
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S112",
+        "n": 345,
+        "positive_rate": 0.014492753623188406,
+        "brier": 0.014320309044908925
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S113",
+        "n": 380,
+        "positive_rate": 0.0,
+        "brier": 0.000404559120233084
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S115",
+        "n": 314,
+        "positive_rate": 0.03184713375796178,
+        "brier": 0.030700440238667345
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S123",
+        "n": 369,
+        "positive_rate": 0.018970189701897018,
+        "brier": 0.018590006049979613
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S202",
+        "n": 69,
+        "positive_rate": 0.07246376811594203,
+        "brier": 0.06883606472262906
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S208",
+        "n": 398,
+        "positive_rate": 0.032663316582914576,
+        "brier": 0.03146188776585524
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S211",
+        "n": 408,
+        "positive_rate": 0.007352941176470588,
+        "brier": 0.0074443115757044384
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S216",
+        "n": 405,
+        "positive_rate": 0.02962962962962963,
+        "brier": 0.028637214504671427
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S224",
+        "n": 362,
+        "positive_rate": 0.0055248618784530384,
+        "brier": 0.005724986524966284
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S230",
+        "n": 395,
+        "positive_rate": 0.030379746835443037,
+        "brier": 0.029368498220198127
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S33",
+        "n": 330,
+        "positive_rate": 0.006060606060606061,
+        "brier": 0.006439077176443693
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S36",
+        "n": 18,
+        "positive_rate": 0.0,
+        "brier": 0.0006120757603162636
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S64",
+        "n": 362,
+        "positive_rate": 0.03867403314917127,
+        "brier": 0.0372297312613476
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S69",
+        "n": 392,
+        "positive_rate": 0.02040816326530612,
+        "brier": 0.019990122763730227
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S109",
+        "n": 357,
+        "positive_rate": 0.028011204481792718,
+        "brier": 0.027134617471067147
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S111",
+        "n": 346,
+        "positive_rate": 0.031791907514450865,
+        "brier": 0.03068169925379613
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S113",
+        "n": 380,
+        "positive_rate": 0.03684210526315789,
+        "brier": 0.03539738034636798
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S43",
+        "n": 362,
+        "positive_rate": 0.04419889502762431,
+        "brier": 0.04235249360903776
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S44",
+        "n": 301,
+        "positive_rate": 0.03986710963455149,
+        "brier": 0.03833075290636752
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S50",
+        "n": 389,
+        "positive_rate": 0.038560411311053984,
+        "brier": 0.03704602646187816
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S60",
+        "n": 391,
+        "positive_rate": 0.05115089514066496,
+        "brier": 0.048916309959967826
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S81",
+        "n": 380,
+        "positive_rate": 0.05,
+        "brier": 0.04779971713864824
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S100",
+        "n": 191,
+        "positive_rate": 0.005235602094240838,
+        "brier": 0.005395148427842674
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S104",
+        "n": 355,
+        "positive_rate": 0.014084507042253521,
+        "brier": 0.014009742230688956
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S108",
+        "n": 155,
+        "positive_rate": 0.0,
+        "brier": 0.0004013199286819748
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S219",
+        "n": 371,
+        "positive_rate": 0.013477088948787063,
+        "brier": 0.013377263765672661
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S222",
+        "n": 393,
+        "positive_rate": 0.002544529262086514,
+        "brier": 0.00288361000318287
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S228",
+        "n": 404,
+        "positive_rate": 0.01485148514851485,
+        "brier": 0.014629646897176671
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S60",
+        "n": 391,
+        "positive_rate": 0.015345268542199489,
+        "brier": 0.015218088412715066
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S79",
+        "n": 390,
+        "positive_rate": 0.002564102564102564,
+        "brier": 0.0029314121071617807
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S88",
+        "n": 370,
+        "positive_rate": 0.008108108108108109,
+        "brier": 0.00829291768266355
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S90",
+        "n": 371,
+        "positive_rate": 0.016172506738544475,
+        "brier": 0.016001050383959887
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S120",
+        "n": 389,
+        "positive_rate": 0.043701799485861184,
+        "brier": 0.04179220450571668
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S203",
+        "n": 370,
+        "positive_rate": 0.05675675675675676,
+        "brier": 0.05401024091080269
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S214",
+        "n": 404,
+        "positive_rate": 0.04950495049504951,
+        "brier": 0.04725619520040244
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S219",
+        "n": 371,
+        "positive_rate": 0.08086253369272237,
+        "brier": 0.07658126555878263
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S223",
+        "n": 367,
+        "positive_rate": 0.05722070844686648,
+        "brier": 0.05461012006710772
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S111",
+        "n": 346,
+        "positive_rate": 0.002890173410404624,
+        "brier": 0.00325793473251019
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S113",
+        "n": 380,
+        "positive_rate": 0.031578947368421054,
+        "brier": 0.03048293144496776
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S120",
+        "n": 389,
+        "positive_rate": 0.007712082262210797,
+        "brier": 0.007897227075817026
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S204",
+        "n": 392,
+        "positive_rate": 0.012755102040816327,
+        "brier": 0.012676635728899176
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S209",
+        "n": 362,
+        "positive_rate": 0.016574585635359115,
+        "brier": 0.01640944497995074
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S211",
+        "n": 408,
+        "positive_rate": 0.014705882352941176,
+        "brier": 0.014518887972647948
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S212",
+        "n": 392,
+        "positive_rate": 0.007653061224489796,
+        "brier": 0.007814040845021027
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S212",
+        "n": 392,
+        "positive_rate": 0.007653061224489796,
+        "brier": 0.00776992298028737
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S227",
+        "n": 386,
+        "positive_rate": 0.02849740932642487,
+        "brier": 0.027631642240349464
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S24",
+        "n": 337,
+        "positive_rate": 0.020771513353115726,
+        "brier": 0.020326120736372452
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S24",
+        "n": 337,
+        "positive_rate": 0.01483679525222552,
+        "brier": 0.014669461265394765
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S78",
+        "n": 374,
+        "positive_rate": 0.00267379679144385,
+        "brier": 0.0029530515982233957
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S84",
+        "n": 330,
+        "positive_rate": 0.021212121212121213,
+        "brier": 0.02068729156663841
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S94",
+        "n": 370,
+        "positive_rate": 0.013513513513513514,
+        "brier": 0.013342849530360832
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S118",
+        "n": 377,
+        "positive_rate": 0.021220159151193633,
+        "brier": 0.020766724426203562
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S217",
+        "n": 378,
+        "positive_rate": 0.07142857142857142,
+        "brier": 0.06781148417570342
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S218",
+        "n": 410,
+        "positive_rate": 0.08048780487804878,
+        "brier": 0.0760783032655237
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S64",
+        "n": 362,
+        "positive_rate": 0.04143646408839779,
+        "brier": 0.03974896191081581
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S66",
+        "n": 339,
+        "positive_rate": 0.014749262536873156,
+        "brier": 0.014678135717891665
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S81",
+        "n": 380,
+        "positive_rate": 0.07894736842105263,
+        "brier": 0.07487442753052667
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S90",
+        "n": 371,
+        "positive_rate": 0.03504043126684636,
+        "brier": 0.03382509645346167
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S07",
+        "n": 246,
+        "positive_rate": 0.008130081300813009,
+        "brier": 0.008217110533353174
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S107",
+        "n": 368,
+        "positive_rate": 0.0,
+        "brier": 0.00036438596473037626
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S113",
+        "n": 380,
+        "positive_rate": 0.015789473684210527,
+        "brier": 0.015564379083576546
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S117",
+        "n": 366,
+        "positive_rate": 0.00819672131147541,
+        "brier": 0.008365670472751352
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S118",
+        "n": 377,
+        "positive_rate": 0.01856763925729443,
+        "brier": 0.018261285064140067
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S119",
+        "n": 358,
+        "positive_rate": 0.019553072625698324,
+        "brier": 0.019136578652039906
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S205",
+        "n": 391,
+        "positive_rate": 0.023017902813299233,
+        "brier": 0.02249020911327434
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S207",
+        "n": 387,
+        "positive_rate": 0.03359173126614987,
+        "brier": 0.03240242640424293
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S217",
+        "n": 378,
+        "positive_rate": 0.023809523809523808,
+        "brier": 0.023159212421310273
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S218",
+        "n": 410,
+        "positive_rate": 0.007317073170731708,
+        "brier": 0.00743475762448298
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S33",
+        "n": 330,
+        "positive_rate": 0.0030303030303030303,
+        "brier": 0.0035104608491731315
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S33",
+        "n": 330,
+        "positive_rate": 0.0030303030303030303,
+        "brier": 0.003438329311816431
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S81",
+        "n": 380,
+        "positive_rate": 0.005263157894736842,
+        "brier": 0.005505786953672915
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S84",
+        "n": 330,
+        "positive_rate": 0.012121212121212121,
+        "brier": 0.012075367207514096
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S84",
+        "n": 330,
+        "positive_rate": 0.0,
+        "brier": 0.0003966456701157399
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S94",
+        "n": 370,
+        "positive_rate": 0.002702702702702703,
+        "brier": 0.002970312711341749
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S07",
+        "n": 246,
+        "positive_rate": 0.056910569105691054,
+        "brier": 0.054354807763618916
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S104",
+        "n": 355,
+        "positive_rate": 0.03943661971830986,
+        "brier": 0.037906386529348426
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S109",
+        "n": 357,
+        "positive_rate": 0.05322128851540616,
+        "brier": 0.05079275472000647
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S116",
+        "n": 333,
+        "positive_rate": 0.04804804804804805,
+        "brier": 0.04606776733327485
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S207",
+        "n": 387,
+        "positive_rate": 0.08785529715762273,
+        "brier": 0.08336248324572575
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S220",
+        "n": 353,
+        "positive_rate": 0.06515580736543909,
+        "brier": 0.06183535339485748
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S226",
+        "n": 422,
+        "positive_rate": 0.045023696682464455,
+        "brier": 0.04299333279765722
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S79",
+        "n": 390,
+        "positive_rate": 0.038461538461538464,
+        "brier": 0.03688603259913916
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S94",
+        "n": 370,
+        "positive_rate": 0.05945945945945946,
+        "brier": 0.05664814264558625
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S107",
+        "n": 368,
+        "positive_rate": 0.016304347826086956,
+        "brier": 0.01603925085975755
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S114",
+        "n": 400,
+        "positive_rate": 0.0025,
+        "brier": 0.002825511599216085
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S201",
+        "n": 359,
+        "positive_rate": 0.016713091922005572,
+        "brier": 0.016486074682933255
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S204",
+        "n": 392,
+        "positive_rate": 0.017857142857142856,
+        "brier": 0.017520023745118095
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S211",
+        "n": 408,
+        "positive_rate": 0.0196078431372549,
+        "brier": 0.019168098653457758
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S78",
+        "n": 374,
+        "positive_rate": 0.008021390374331552,
+        "brier": 0.008170903514380596
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S81",
+        "n": 380,
+        "positive_rate": 0.002631578947368421,
+        "brier": 0.0029217669281294155
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S90",
+        "n": 371,
+        "positive_rate": 0.0026954177897574125,
+        "brier": 0.0030068102106382945
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S07",
+        "n": 246,
+        "positive_rate": 0.08130081300813008,
+        "brier": 0.07729088274086875
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S104",
+        "n": 355,
+        "positive_rate": 0.0676056338028169,
+        "brier": 0.06431366309520604
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S210",
+        "n": 378,
+        "positive_rate": 0.06349206349206349,
+        "brier": 0.060193858062193975
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S213",
+        "n": 384,
+        "positive_rate": 0.046875,
+        "brier": 0.044831143110933204
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S08",
+        "n": 386,
+        "positive_rate": 0.04922279792746114,
+        "brier": 0.04712120329557606
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S106",
+        "n": 230,
+        "positive_rate": 0.034782608695652174,
+        "brier": 0.03365597483982276
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S108",
+        "n": 155,
+        "positive_rate": 0.0064516129032258064,
+        "brier": 0.006787552603807657
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S112",
+        "n": 345,
+        "positive_rate": 0.014492753623188406,
+        "brier": 0.01433964044034879
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S114",
+        "n": 400,
+        "positive_rate": 0.0125,
+        "brier": 0.012463772007684892
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S120",
+        "n": 389,
+        "positive_rate": 0.0,
+        "brier": 0.00041931483869772293
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S205",
+        "n": 391,
+        "positive_rate": 0.05115089514066496,
+        "brier": 0.048901603983979476
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S208",
+        "n": 398,
+        "positive_rate": 0.01256281407035176,
+        "brier": 0.012527921234290005
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S211",
+        "n": 408,
+        "positive_rate": 0.02696078431372549,
+        "brier": 0.02609631650242714
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S216",
+        "n": 405,
+        "positive_rate": 0.014814814814814815,
+        "brier": 0.014728751703417264
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S217",
+        "n": 378,
+        "positive_rate": 0.021164021164021163,
+        "brier": 0.020644202182537045
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S219",
+        "n": 371,
+        "positive_rate": 0.013477088948787063,
+        "brier": 0.013415204109304307
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S219",
+        "n": 371,
+        "positive_rate": 0.01078167115902965,
+        "brier": 0.010770371123528045
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S226",
+        "n": 422,
+        "positive_rate": 0.004739336492890996,
+        "brier": 0.005013906233524662
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S227",
+        "n": 386,
+        "positive_rate": 0.038860103626943004,
+        "brier": 0.03737568401912796
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S24",
+        "n": 337,
+        "positive_rate": 0.002967359050445104,
+        "brier": 0.0033017427885553047
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S61",
+        "n": 91,
+        "positive_rate": 0.01098901098901099,
+        "brier": 0.0109457637747625
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S64",
+        "n": 362,
+        "positive_rate": 0.022099447513812154,
+        "brier": 0.021583970468673525
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S71",
+        "n": 371,
+        "positive_rate": 0.02425876010781671,
+        "brier": 0.02361822861878426
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S71",
+        "n": 371,
+        "positive_rate": 0.016172506738544475,
+        "brier": 0.015903243648960744
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S107",
+        "n": 368,
+        "positive_rate": 0.043478260869565216,
+        "brier": 0.041719603705041505
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S115",
+        "n": 314,
+        "positive_rate": 0.0732484076433121,
+        "brier": 0.06951243796003312
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S24",
+        "n": 337,
+        "positive_rate": 0.05637982195845697,
+        "brier": 0.05380119647587049
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S90",
+        "n": 371,
+        "positive_rate": 0.07277628032345014,
+        "brier": 0.0690920622070888
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S109",
+        "n": 357,
+        "positive_rate": 0.0196078431372549,
+        "brier": 0.01922195605777676
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S111",
+        "n": 346,
+        "positive_rate": 0.011560693641618497,
+        "brier": 0.0116203785587074
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S112",
+        "n": 345,
+        "positive_rate": 0.03188405797101449,
+        "brier": 0.030822556223979607
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S112",
+        "n": 345,
+        "positive_rate": 0.02608695652173913,
+        "brier": 0.02536039054097819
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S116",
+        "n": 333,
+        "positive_rate": 0.012012012012012012,
+        "brier": 0.012099536663805161
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S119",
+        "n": 358,
+        "positive_rate": 0.0111731843575419,
+        "brier": 0.011208028483891274
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S120",
+        "n": 389,
+        "positive_rate": 0.02056555269922879,
+        "brier": 0.020086334034779347
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S217",
+        "n": 378,
+        "positive_rate": 0.037037037037037035,
+        "brier": 0.035620216892599504
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S220",
+        "n": 353,
+        "positive_rate": 0.0028328611898017,
+        "brier": 0.0032712681032029006
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S221",
+        "n": 370,
+        "positive_rate": 0.013513513513513514,
+        "brier": 0.013386700757327076
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S66",
+        "n": 339,
+        "positive_rate": 0.011799410029498525,
+        "brier": 0.011876747953437542
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S77",
+        "n": 377,
+        "positive_rate": 0.023872679045092837,
+        "brier": 0.023267312409902843
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S79",
+        "n": 390,
+        "positive_rate": 0.005128205128205128,
+        "brier": 0.005421518957190227
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S94",
+        "n": 370,
+        "positive_rate": 0.02702702702702703,
+        "brier": 0.026233862813184478
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S102",
+        "n": 71,
+        "positive_rate": 0.04225352112676056,
+        "brier": 0.04066348285241248
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S106",
+        "n": 230,
+        "positive_rate": 0.08260869565217391,
+        "brier": 0.07850210080222811
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S201",
+        "n": 359,
+        "positive_rate": 0.06406685236768803,
+        "brier": 0.06093509992813751
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S43",
+        "n": 362,
+        "positive_rate": 0.055248618784530384,
+        "brier": 0.052663044942275195
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S60",
+        "n": 391,
+        "positive_rate": 0.03324808184143223,
+        "brier": 0.03210549742849412
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S61",
+        "n": 91,
+        "positive_rate": 0.054945054945054944,
+        "brier": 0.052804054999726555
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S84",
+        "n": 330,
+        "positive_rate": 0.06060606060606061,
+        "brier": 0.057726924393747395
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S104",
+        "n": 355,
+        "positive_rate": 0.008450704225352112,
+        "brier": 0.008562763822548808
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S201",
+        "n": 359,
+        "positive_rate": 0.008356545961002786,
+        "brier": 0.008497831453211495
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S201",
+        "n": 359,
+        "positive_rate": 0.008356545961002786,
+        "brier": 0.008438832381569398
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S210",
+        "n": 378,
+        "positive_rate": 0.015873015873015872,
+        "brier": 0.015670798423636032
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S218",
+        "n": 410,
+        "positive_rate": 0.012195121951219513,
+        "brier": 0.01216812729290642
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S221",
+        "n": 370,
+        "positive_rate": 0.03783783783783784,
+        "brier": 0.036424319619478195
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S224",
+        "n": 362,
+        "positive_rate": 0.016574585635359115,
+        "brier": 0.016354624375290398
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S226",
+        "n": 422,
+        "positive_rate": 0.011848341232227487,
+        "brier": 0.011880958316668461
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S50",
+        "n": 389,
+        "positive_rate": 0.010282776349614395,
+        "brier": 0.010402848108479206
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S114",
+        "n": 400,
+        "positive_rate": 0.04,
+        "brier": 0.03839948916969489
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S109",
+        "n": 357,
+        "positive_rate": 0.0028011204481792717,
+        "brier": 0.0031254274663948915
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S118",
+        "n": 377,
+        "positive_rate": 0.005305039787798408,
+        "brier": 0.005611228121595198
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S123",
+        "n": 369,
+        "positive_rate": 0.008130081300813009,
+        "brier": 0.008202239596018745
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S203",
+        "n": 370,
+        "positive_rate": 0.021621621621621623,
+        "brier": 0.021128178241589052
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S204",
+        "n": 392,
+        "positive_rate": 0.007653061224489796,
+        "brier": 0.007724633712950133
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S210",
+        "n": 378,
+        "positive_rate": 0.010582010582010581,
+        "brier": 0.010608137704618712
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S214",
+        "n": 404,
+        "positive_rate": 0.007425742574257425,
+        "brier": 0.007649598022479298
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S224",
+        "n": 362,
+        "positive_rate": 0.03314917127071823,
+        "brier": 0.03206180798932682
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S227",
+        "n": 386,
+        "positive_rate": 0.007772020725388601,
+        "brier": 0.007988804687665765
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S36",
+        "n": 18,
+        "positive_rate": 0.0,
+        "brier": 0.000554520689121609
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S44",
+        "n": 301,
+        "positive_rate": 0.036544850498338874,
+        "brier": 0.03522215030858797
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S79",
+        "n": 390,
+        "positive_rate": 0.01282051282051282,
+        "brier": 0.012775191965004814
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S90",
+        "n": 371,
+        "positive_rate": 0.02425876010781671,
+        "brier": 0.023645651103781952
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S07",
+        "n": 246,
+        "positive_rate": 0.044715447154471545,
+        "brier": 0.042941193504799885
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S121",
+        "n": 374,
+        "positive_rate": 0.0748663101604278,
+        "brier": 0.07109222670790133
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S207",
+        "n": 387,
+        "positive_rate": 0.05426356589147287,
+        "brier": 0.05185330140545398
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S216",
+        "n": 405,
+        "positive_rate": 0.06419753086419754,
+        "brier": 0.06075086722872019
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S220",
+        "n": 353,
+        "positive_rate": 0.028328611898016998,
+        "brier": 0.027406310723530634
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S230",
+        "n": 395,
+        "positive_rate": 0.07848101265822785,
+        "brier": 0.07410880982317336
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S44",
+        "n": 301,
+        "positive_rate": 0.059800664451827246,
+        "brier": 0.05696062919493547
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S117",
+        "n": 366,
+        "positive_rate": 0.03551912568306011,
+        "brier": 0.03423501339516775
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S121",
+        "n": 374,
+        "positive_rate": 0.016042780748663103,
+        "brier": 0.015806634703773755
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S210",
+        "n": 378,
+        "positive_rate": 0.010582010582010581,
+        "brier": 0.010653354416972233
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S219",
+        "n": 371,
+        "positive_rate": 0.0215633423180593,
+        "brier": 0.02109901828890401
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S220",
+        "n": 353,
+        "positive_rate": 0.0028328611898017,
+        "brier": 0.0031755715480433536
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S223",
+        "n": 367,
+        "positive_rate": 0.010899182561307902,
+        "brier": 0.011001194496236264
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S106",
+        "n": 230,
+        "positive_rate": 0.0782608695652174,
+        "brier": 0.0745412277917293
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S201",
+        "n": 359,
+        "positive_rate": 0.04735376044568245,
+        "brier": 0.045296694991839186
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S224",
+        "n": 362,
+        "positive_rate": 0.04419889502762431,
+        "brier": 0.04245463813357108
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S64",
+        "n": 362,
+        "positive_rate": 0.04143646408839779,
+        "brier": 0.039782093388337755
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S69",
+        "n": 392,
+        "positive_rate": 0.030612244897959183,
+        "brier": 0.029572131952239216
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S100",
+        "n": 191,
+        "positive_rate": 0.015706806282722512,
+        "brier": 0.015432764142317621
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S118",
+        "n": 377,
+        "positive_rate": 0.0,
+        "brier": 0.0004953957471579018
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S207",
+        "n": 387,
+        "positive_rate": 0.020671834625323,
+        "brier": 0.020218655491085463
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S209",
+        "n": 362,
+        "positive_rate": 0.008287292817679558,
+        "brier": 0.008541949901528683
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S210",
+        "n": 378,
+        "positive_rate": 0.0026455026455026454,
+        "brier": 0.0029765218183509254
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S215",
+        "n": 338,
+        "positive_rate": 0.04142011834319527,
+        "brier": 0.039751091279938526
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S215",
+        "n": 338,
+        "positive_rate": 0.0029585798816568047,
+        "brier": 0.0033028364103160715
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S216",
+        "n": 405,
+        "positive_rate": 0.03209876543209877,
+        "brier": 0.030938099440755866
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S216",
+        "n": 405,
+        "positive_rate": 0.014814814814814815,
+        "brier": 0.014663009036851622
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S40",
+        "n": 356,
+        "positive_rate": 0.016853932584269662,
+        "brier": 0.016571516831786644
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S64",
+        "n": 362,
+        "positive_rate": 0.008287292817679558,
+        "brier": 0.008337698765858197
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S69",
+        "n": 392,
+        "positive_rate": 0.015306122448979591,
+        "brier": 0.015152310575993509
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S81",
+        "n": 380,
+        "positive_rate": 0.007894736842105263,
+        "brier": 0.008054782526233225
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S89",
+        "n": 378,
+        "positive_rate": 0.010582010582010581,
+        "brier": 0.01064070551719567
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S107",
+        "n": 368,
+        "positive_rate": 0.057065217391304345,
+        "brier": 0.05449892882695342
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S117",
+        "n": 366,
+        "positive_rate": 0.04371584699453552,
+        "brier": 0.04193707069654939
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S119",
+        "n": 358,
+        "positive_rate": 0.04189944134078212,
+        "brier": 0.0401008445787574
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S121",
+        "n": 374,
+        "positive_rate": 0.11229946524064172,
+        "brier": 0.10603409337096156
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S214",
+        "n": 404,
+        "positive_rate": 0.03217821782178218,
+        "brier": 0.031024949327680927
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S221",
+        "n": 370,
+        "positive_rate": 0.043243243243243246,
+        "brier": 0.041458720240995214
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S24",
+        "n": 337,
+        "positive_rate": 0.02967359050445104,
+        "brier": 0.02874056946787907
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S35",
+        "n": 352,
+        "positive_rate": 0.0625,
+        "brier": 0.05964191346129256
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S36",
+        "n": 18,
+        "positive_rate": 0.0,
+        "brier": 0.0008375908970122603
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S66",
+        "n": 339,
+        "positive_rate": 0.061946902654867256,
+        "brier": 0.05878126309806904
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S104",
+        "n": 355,
+        "positive_rate": 0.011267605633802818,
+        "brier": 0.011298019401194763
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S108",
+        "n": 155,
+        "positive_rate": 0.0064516129032258064,
+        "brier": 0.006678106343280684
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S109",
+        "n": 357,
+        "positive_rate": 0.014005602240896359,
+        "brier": 0.013926599523799824
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S118",
+        "n": 377,
+        "positive_rate": 0.013262599469496022,
+        "brier": 0.01325116735267668
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S119",
+        "n": 358,
+        "positive_rate": 0.00558659217877095,
+        "brier": 0.005891114969389848
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S202",
+        "n": 69,
+        "positive_rate": 0.028985507246376812,
+        "brier": 0.028079060914645546
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S205",
+        "n": 391,
+        "positive_rate": 0.017902813299232736,
+        "brier": 0.017587438458744307
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S209",
+        "n": 362,
+        "positive_rate": 0.0055248618784530384,
+        "brier": 0.005896404140455637
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S211",
+        "n": 408,
+        "positive_rate": 0.041666666666666664,
+        "brier": 0.03992983778655874
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S216",
+        "n": 405,
+        "positive_rate": 0.007407407407407408,
+        "brier": 0.0075461641180521385
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S223",
+        "n": 367,
+        "positive_rate": 0.02452316076294278,
+        "brier": 0.023928558500041486
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S227",
+        "n": 386,
+        "positive_rate": 0.0,
+        "brier": 0.0005455333852614838
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S227",
+        "n": 386,
+        "positive_rate": 0.0,
+        "brier": 0.00044287563091182736
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S43",
+        "n": 362,
+        "positive_rate": 0.027624309392265192,
+        "brier": 0.026800384775982115
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S66",
+        "n": 339,
+        "positive_rate": 0.0058997050147492625,
+        "brier": 0.006197965492206075
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S84",
+        "n": 330,
+        "positive_rate": 0.006060606060606061,
+        "brier": 0.006278762984532142
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S88",
+        "n": 370,
+        "positive_rate": 0.008108108108108109,
+        "brier": 0.008215009259344661
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S900",
+        "n": 374,
+        "positive_rate": 0.016042780748663103,
+        "brier": 0.015840645237281098
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S100",
+        "n": 191,
+        "positive_rate": 0.07853403141361257,
+        "brier": 0.07470824650895781
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S204",
+        "n": 392,
+        "positive_rate": 0.04846938775510204,
+        "brier": 0.046288983528472404
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S212",
+        "n": 392,
+        "positive_rate": 0.02295918367346939,
+        "brier": 0.02239068863100121
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S24",
+        "n": 337,
+        "positive_rate": 0.032640949554896145,
+        "brier": 0.031519361619077924
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S08",
+        "n": 386,
+        "positive_rate": 0.015544041450777202,
+        "brier": 0.01538625031444481
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S108",
+        "n": 155,
+        "positive_rate": 0.0,
+        "brier": 0.0004944564409033352
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S111",
+        "n": 346,
+        "positive_rate": 0.005780346820809248,
+        "brier": 0.006067006505904787
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S121",
+        "n": 374,
+        "positive_rate": 0.0374331550802139,
+        "brier": 0.03605427369102891
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S121",
+        "n": 374,
+        "positive_rate": 0.0053475935828877,
+        "brier": 0.005541055135143799
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S123",
+        "n": 369,
+        "positive_rate": 0.013550135501355014,
+        "brier": 0.013417208996164404
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S213",
+        "n": 384,
+        "positive_rate": 0.010416666666666666,
+        "brier": 0.01040933023068256
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S214",
+        "n": 404,
+        "positive_rate": 0.0,
+        "brier": 0.0004744743459670808
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S215",
+        "n": 338,
+        "positive_rate": 0.0,
+        "brier": 0.00039472878488012016
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S220",
+        "n": 353,
+        "positive_rate": 0.0169971671388102,
+        "brier": 0.01679068924781837
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S226",
+        "n": 422,
+        "positive_rate": 0.026066350710900472,
+        "brier": 0.025300156186732967
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S43",
+        "n": 362,
+        "positive_rate": 0.0055248618784530384,
+        "brier": 0.005699074575269621
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S60",
+        "n": 391,
+        "positive_rate": 0.0076726342710997444,
+        "brier": 0.007888209404854104
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S64",
+        "n": 362,
+        "positive_rate": 0.016574585635359115,
+        "brier": 0.01629588349108262
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S69",
+        "n": 392,
+        "positive_rate": 0.007653061224489796,
+        "brier": 0.0078048953806296294
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S111",
+        "n": 346,
+        "positive_rate": 0.028901734104046242,
+        "brier": 0.027991513630651416
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S119",
+        "n": 358,
+        "positive_rate": 0.0782122905027933,
+        "brier": 0.07413988505784609
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S208",
+        "n": 398,
+        "positive_rate": 0.04522613065326633,
+        "brier": 0.04323459264781428
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S35",
+        "n": 352,
+        "positive_rate": 0.048295454545454544,
+        "brier": 0.046335746379810555
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S201",
+        "n": 359,
+        "positive_rate": 0.025069637883008356,
+        "brier": 0.024384151432066587
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S202",
+        "n": 69,
+        "positive_rate": 0.014492753623188406,
+        "brier": 0.014290528013566206
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S203",
+        "n": 370,
+        "positive_rate": 0.010810810810810811,
+        "brier": 0.010901782781157783
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S204",
+        "n": 392,
+        "positive_rate": 0.02806122448979592,
+        "brier": 0.027158788965484185
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S205",
+        "n": 391,
+        "positive_rate": 0.043478260869565216,
+        "brier": 0.04175068328985497
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S222",
+        "n": 393,
+        "positive_rate": 0.043256997455470736,
+        "brier": 0.041453272744087645
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S222",
+        "n": 393,
+        "positive_rate": 0.007633587786259542,
+        "brier": 0.007803573837992151
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S224",
+        "n": 362,
+        "positive_rate": 0.0,
+        "brier": 0.0003471706070605843
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S229",
+        "n": 364,
+        "positive_rate": 0.01098901098901099,
+        "brier": 0.011035102736880343
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S229",
+        "n": 364,
+        "positive_rate": 0.0,
+        "brier": 0.0004996200613856508
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S66",
+        "n": 339,
+        "positive_rate": 0.0,
+        "brier": 0.00042930350347520827
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S71",
+        "n": 371,
+        "positive_rate": 0.026954177897574125,
+        "brier": 0.026178439395755957
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S900",
+        "n": 374,
+        "positive_rate": 0.0213903743315508,
+        "brier": 0.02090569995879652
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S900",
+        "n": 374,
+        "positive_rate": 0.0053475935828877,
+        "brier": 0.005520745964666648
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S226",
+        "n": 422,
+        "positive_rate": 0.07582938388625593,
+        "brier": 0.07166122368710261
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S226",
+        "n": 422,
+        "positive_rate": 0.04739336492890995,
+        "brier": 0.04517833239765207
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S900",
+        "n": 374,
+        "positive_rate": 0.0481283422459893,
+        "brier": 0.04599899467721235
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S102",
+        "n": 71,
+        "positive_rate": 0.014084507042253521,
+        "brier": 0.013962214011474138
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S114",
+        "n": 400,
+        "positive_rate": 0.03,
+        "brier": 0.029053363749199947
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S118",
+        "n": 377,
+        "positive_rate": 0.0,
+        "brier": 0.0004020826060522306
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S123",
+        "n": 369,
+        "positive_rate": 0.02168021680216802,
+        "brier": 0.021169300453762807
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S209",
+        "n": 362,
+        "positive_rate": 0.0,
+        "brier": 0.00047082553371229996
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S213",
+        "n": 384,
+        "positive_rate": 0.036458333333333336,
+        "brier": 0.03507412839429853
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S214",
+        "n": 404,
+        "positive_rate": 0.024752475247524754,
+        "brier": 0.024044791446196288
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S215",
+        "n": 338,
+        "positive_rate": 0.011834319526627219,
+        "brier": 0.011835469161938663
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S216",
+        "n": 405,
+        "positive_rate": 0.014814814814814815,
+        "brier": 0.014698213338704831
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S217",
+        "n": 378,
+        "positive_rate": 0.015873015873015872,
+        "brier": 0.015606530228567925
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S218",
+        "n": 410,
+        "positive_rate": 0.01951219512195122,
+        "brier": 0.01910047195995981
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S230",
+        "n": 395,
+        "positive_rate": 0.02278481012658228,
+        "brier": 0.022253068692630454
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S35",
+        "n": 352,
+        "positive_rate": 0.017045454545454544,
+        "brier": 0.016797017840664244
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S40",
+        "n": 356,
+        "positive_rate": 0.025280898876404494,
+        "brier": 0.024589191142126245
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S40",
+        "n": 356,
+        "positive_rate": 0.019662921348314606,
+        "brier": 0.019271809596853293
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S50",
+        "n": 389,
+        "positive_rate": 0.02056555269922879,
+        "brier": 0.02015259267989694
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S69",
+        "n": 392,
+        "positive_rate": 0.00510204081632653,
+        "brier": 0.005301233077536168
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S89",
+        "n": 378,
+        "positive_rate": 0.007936507936507936,
+        "brier": 0.008068094574407506
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S08",
+        "n": 386,
+        "positive_rate": 0.08031088082901554,
+        "brier": 0.07618052468960165
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S112",
+        "n": 345,
+        "positive_rate": 0.07536231884057971,
+        "brier": 0.07158228653369098
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S116",
+        "n": 333,
+        "positive_rate": 0.024024024024024024,
+        "brier": 0.023506770289190484
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S224",
+        "n": 362,
+        "positive_rate": 0.04419889502762431,
+        "brier": 0.04242375442636251
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S102",
+        "n": 71,
+        "positive_rate": 0.014084507042253521,
+        "brier": 0.013942910615420573
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S107",
+        "n": 368,
+        "positive_rate": 0.035326086956521736,
+        "brier": 0.03407197614943861
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S108",
+        "n": 155,
+        "positive_rate": 0.0064516129032258064,
+        "brier": 0.006842735009571417
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S112",
+        "n": 345,
+        "positive_rate": 0.011594202898550725,
+        "brier": 0.011518991253729753
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S115",
+        "n": 314,
+        "positive_rate": 0.009554140127388535,
+        "brier": 0.009642709140258058
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S116",
+        "n": 333,
+        "positive_rate": 0.003003003003003003,
+        "brier": 0.0034028369229167164
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S207",
+        "n": 387,
+        "positive_rate": 0.007751937984496124,
+        "brier": 0.007819419363974242
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S209",
+        "n": 362,
+        "positive_rate": 0.0,
+        "brier": 0.0005798761325006672
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S212",
+        "n": 392,
+        "positive_rate": 0.017857142857142856,
+        "brier": 0.017582221986748137
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S221",
+        "n": 370,
+        "positive_rate": 0.02702702702702703,
+        "brier": 0.026235191615284238
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S228",
+        "n": 404,
+        "positive_rate": 0.04950495049504951,
+        "brier": 0.04739829269162969
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S228",
+        "n": 404,
+        "positive_rate": 0.007425742574257425,
+        "brier": 0.007520759819529171
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S60",
+        "n": 391,
+        "positive_rate": 0.005115089514066497,
+        "brier": 0.005344270669508654
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S78",
+        "n": 374,
+        "positive_rate": 0.0106951871657754,
+        "brier": 0.010735630915919973
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S90",
+        "n": 371,
+        "positive_rate": 0.01078167115902965,
+        "brier": 0.010840560537575332
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S94",
+        "n": 370,
+        "positive_rate": 0.032432432432432434,
+        "brier": 0.03131395669830679
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S108",
+        "n": 155,
+        "positive_rate": 0.05161290322580645,
+        "brier": 0.04923224853280496
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S210",
+        "n": 378,
+        "positive_rate": 0.031746031746031744,
+        "brier": 0.030611049860664114
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S215",
+        "n": 338,
+        "positive_rate": 0.0621301775147929,
+        "brier": 0.05910328584232765
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S227",
+        "n": 386,
+        "positive_rate": 0.06476683937823834,
+        "brier": 0.061553686115129326
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S104",
+        "n": 355,
+        "positive_rate": 0.028169014084507043,
+        "brier": 0.02730523710599218
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S106",
+        "n": 230,
+        "positive_rate": 0.02608695652173913,
+        "brier": 0.02540201611282111
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S111",
+        "n": 346,
+        "positive_rate": 0.002890173410404624,
+        "brier": 0.0031756570710197826
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S116",
+        "n": 333,
+        "positive_rate": 0.0,
+        "brier": 0.0004869590056288266
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S120",
+        "n": 389,
+        "positive_rate": 0.005141388174807198,
+        "brier": 0.005407044204778346
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S208",
+        "n": 398,
+        "positive_rate": 0.01507537688442211,
+        "brier": 0.01492574528967903
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S213",
+        "n": 384,
+        "positive_rate": 0.013020833333333334,
+        "brier": 0.012922678168455805
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S220",
+        "n": 353,
+        "positive_rate": 0.0028328611898017,
+        "brier": 0.0033481468930363135
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S222",
+        "n": 393,
+        "positive_rate": 0.017811704834605598,
+        "brier": 0.017525846346425865
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S36",
+        "n": 18,
+        "positive_rate": 0.0,
+        "brier": 0.0007760898020903851
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S84",
+        "n": 330,
+        "positive_rate": 0.024242424242424242,
+        "brier": 0.02355494292405826
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S89",
+        "n": 378,
+        "positive_rate": 0.010582010582010581,
+        "brier": 0.010672997246096072
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S89",
+        "n": 378,
+        "positive_rate": 0.0026455026455026454,
+        "brier": 0.0029213937755139204
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S94",
+        "n": 370,
+        "positive_rate": 0.01891891891891892,
+        "brier": 0.018514759598264048
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S102",
+        "n": 71,
+        "positive_rate": 0.1267605633802817,
+        "brier": 0.12063666199571528
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S202",
+        "n": 69,
+        "positive_rate": 0.17391304347826086,
+        "brier": 0.163428051792088
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S208",
+        "n": 398,
+        "positive_rate": 0.04522613065326633,
+        "brier": 0.04326676577142931
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S210",
+        "n": 378,
+        "positive_rate": 0.06349206349206349,
+        "brier": 0.06026380701988712
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S220",
+        "n": 353,
+        "positive_rate": 0.06515580736543909,
+        "brier": 0.06176399081719906
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S60",
+        "n": 391,
+        "positive_rate": 0.017902813299232736,
+        "brier": 0.017658959384621017
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S107",
+        "n": 368,
+        "positive_rate": 0.010869565217391304,
+        "brier": 0.010841894679037001
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S113",
+        "n": 380,
+        "positive_rate": 0.013157894736842105,
+        "brier": 0.013052956096059087
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S114",
+        "n": 400,
+        "positive_rate": 0.0375,
+        "brier": 0.03607196145610548
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S116",
+        "n": 333,
+        "positive_rate": 0.021021021021021023,
+        "brier": 0.02067219979387994
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S214",
+        "n": 404,
+        "positive_rate": 0.019801980198019802,
+        "brier": 0.019380177483594416
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S230",
+        "n": 395,
+        "positive_rate": 0.005063291139240506,
+        "brier": 0.005341821909536439
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S35",
+        "n": 352,
+        "positive_rate": 0.03125,
+        "brier": 0.030301645225623123
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S36",
+        "n": 18,
+        "positive_rate": 0.0,
+        "brier": 0.0007033301987793303
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S43",
+        "n": 362,
+        "positive_rate": 0.022099447513812154,
+        "brier": 0.02155452393700909
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S43",
+        "n": 362,
+        "positive_rate": 0.013812154696132596,
+        "brier": 0.01366992076370712
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S60",
+        "n": 391,
+        "positive_rate": 0.0076726342710997444,
+        "brier": 0.007850929264052767
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S79",
+        "n": 390,
+        "positive_rate": 0.02564102564102564,
+        "brier": 0.024861979153923262
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S88",
+        "n": 370,
+        "positive_rate": 0.021621621621621623,
+        "brier": 0.02110850574392469
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S89",
+        "n": 378,
+        "positive_rate": 0.015873015873015872,
+        "brier": 0.015740500706480785
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S100",
+        "n": 191,
+        "positive_rate": 0.06282722513089005,
+        "brier": 0.05999883417545377
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S205",
+        "n": 391,
+        "positive_rate": 0.08184143222506395,
+        "brier": 0.07748932502983497
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S209",
+        "n": 362,
+        "positive_rate": 0.03867403314917127,
+        "brier": 0.03703291276766088
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S216",
+        "n": 405,
+        "positive_rate": 0.06419753086419754,
+        "brier": 0.06082322026269126
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S33",
+        "n": 330,
+        "positive_rate": 0.048484848484848485,
+        "brier": 0.04644222950706981
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S88",
+        "n": 370,
+        "positive_rate": 0.03513513513513514,
+        "brier": 0.03386482825570404
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S115",
+        "n": 314,
+        "positive_rate": 0.009554140127388535,
+        "brier": 0.009552666523577936
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S116",
+        "n": 333,
+        "positive_rate": 0.0,
+        "brier": 0.0003952202520891906
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S119",
+        "n": 358,
+        "positive_rate": 0.002793296089385475,
+        "brier": 0.0030870758179455072
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S211",
+        "n": 408,
+        "positive_rate": 0.012254901960784314,
+        "brier": 0.012160886497777355
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S218",
+        "n": 410,
+        "positive_rate": 0.046341463414634146,
+        "brier": 0.04428259374697463
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S219",
+        "n": 371,
+        "positive_rate": 0.04043126684636118,
+        "brier": 0.03884845796011642
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S44",
+        "n": 301,
+        "positive_rate": 0.013289036544850499,
+        "brier": 0.013270361110664614
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S71",
+        "n": 371,
+        "positive_rate": 0.018867924528301886,
+        "brier": 0.01849139358396701
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S100",
+        "n": 191,
+        "positive_rate": 0.1099476439790576,
+        "brier": 0.10410886145774438
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S104",
+        "n": 355,
+        "positive_rate": 0.03943661971830986,
+        "brier": 0.03787954641042013
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S123",
+        "n": 369,
+        "positive_rate": 0.04878048780487805,
+        "brier": 0.04666960134766357
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S228",
+        "n": 404,
+        "positive_rate": 0.09405940594059406,
+        "brier": 0.08901281643688784
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S36",
+        "n": 18,
+        "positive_rate": 0.0,
+        "brier": 0.0008913841350891113
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S71",
+        "n": 371,
+        "positive_rate": 0.09164420485175202,
+        "brier": 0.08650915883256077
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S71",
+        "n": 371,
+        "positive_rate": 0.06199460916442048,
+        "brier": 0.058978573156155636
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S88",
+        "n": 370,
+        "positive_rate": 0.062162162162162166,
+        "brier": 0.059199555334776624
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S900",
+        "n": 374,
+        "positive_rate": 0.0748663101604278,
+        "brier": 0.07102394674741958
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S109",
+        "n": 357,
+        "positive_rate": 0.0056022408963585435,
+        "brier": 0.005870474957542863
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S115",
+        "n": 314,
+        "positive_rate": 0.009554140127388535,
+        "brier": 0.009601253147880039
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S119",
+        "n": 358,
+        "positive_rate": 0.00558659217877095,
+        "brier": 0.005834047440839596
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S201",
+        "n": 359,
+        "positive_rate": 0.011142061281337047,
+        "brier": 0.011180974368379077
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S202",
+        "n": 69,
+        "positive_rate": 0.028985507246376812,
+        "brier": 0.02807121697075631
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S205",
+        "n": 391,
+        "positive_rate": 0.01278772378516624,
+        "brier": 0.012687190667018757
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S208",
+        "n": 398,
+        "positive_rate": 0.02763819095477387,
+        "brier": 0.026761223893752014
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S219",
+        "n": 371,
+        "positive_rate": 0.04582210242587601,
+        "brier": 0.04383332401234313
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S222",
+        "n": 393,
+        "positive_rate": 0.03307888040712468,
+        "brier": 0.0319207889104823
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S223",
+        "n": 367,
+        "positive_rate": 0.01634877384196185,
+        "brier": 0.016187907942114197
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S24",
+        "n": 337,
+        "positive_rate": 0.01483679525222552,
+        "brier": 0.014651351639317222
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S44",
+        "n": 301,
+        "positive_rate": 0.006644518272425249,
+        "brier": 0.006803811632198782
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S78",
+        "n": 374,
+        "positive_rate": 0.0213903743315508,
+        "brier": 0.020899823974431617
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S203",
+        "n": 370,
+        "positive_rate": 0.05675675675675676,
+        "brier": 0.054062610947512295
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S221",
+        "n": 370,
+        "positive_rate": 0.03783783783783784,
+        "brier": 0.03639910356122351
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S43",
+        "n": 362,
+        "positive_rate": 0.07734806629834254,
+        "brier": 0.07331453682967368
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S64",
+        "n": 362,
+        "positive_rate": 0.055248618784530384,
+        "brier": 0.05277421677771121
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S78",
+        "n": 374,
+        "positive_rate": 0.034759358288770054,
+        "brier": 0.033500187304452464
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S107",
+        "n": 368,
+        "positive_rate": 0.024456521739130436,
+        "brier": 0.02376639959993593
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S116",
+        "n": 333,
+        "positive_rate": 0.003003003003003003,
+        "brier": 0.0034528555905963105
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S208",
+        "n": 398,
+        "positive_rate": 0.002512562814070352,
+        "brier": 0.002824595100724922
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S228",
+        "n": 404,
+        "positive_rate": 0.03217821782178218,
+        "brier": 0.031111525829536104
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S50",
+        "n": 389,
+        "positive_rate": 0.010282776349614395,
+        "brier": 0.010367265756446115
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S77",
+        "n": 377,
+        "positive_rate": 0.0,
+        "brier": 0.00044110592009803564
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S79",
+        "n": 390,
+        "positive_rate": 0.0,
+        "brier": 0.000396415391724954
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S900",
+        "n": 374,
+        "positive_rate": 0.0053475935828877,
+        "brier": 0.005643332733340623
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S108",
+        "n": 155,
+        "positive_rate": 0.012903225806451613,
+        "brier": 0.012938082557752794
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S112",
+        "n": 345,
+        "positive_rate": 0.03768115942028986,
+        "brier": 0.03626205967289051
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S218",
+        "n": 410,
+        "positive_rate": 0.08048780487804878,
+        "brier": 0.07597037120561911
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S222",
+        "n": 393,
+        "positive_rate": 0.061068702290076333,
+        "brier": 0.058024253172392064
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S223",
+        "n": 367,
+        "positive_rate": 0.05722070844686648,
+        "brier": 0.0546626970128804
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S33",
+        "n": 330,
+        "positive_rate": 0.03939393939393939,
+        "brier": 0.03791019939369264
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S35",
+        "n": 352,
+        "positive_rate": 0.08806818181818182,
+        "brier": 0.08359472693020527
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S106",
+        "n": 230,
+        "positive_rate": 0.017391304347826087,
+        "brier": 0.017103959834916128
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S113",
+        "n": 380,
+        "positive_rate": 0.02368421052631579,
+        "brier": 0.023058323162669377
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S120",
+        "n": 389,
+        "positive_rate": 0.007712082262210797,
+        "brier": 0.007938175270144567
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S204",
+        "n": 392,
+        "positive_rate": 0.01020408163265306,
+        "brier": 0.010214286069543058
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S212",
+        "n": 392,
+        "positive_rate": 0.012755102040816327,
+        "brier": 0.012680122493725209
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S215",
+        "n": 338,
+        "positive_rate": 0.008875739644970414,
+        "brier": 0.008990390873380353
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S222",
+        "n": 393,
+        "positive_rate": 0.010178117048346057,
+        "brier": 0.010263877245113592
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S229",
+        "n": 364,
+        "positive_rate": 0.019230769230769232,
+        "brier": 0.01886496203844083
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S24",
+        "n": 337,
+        "positive_rate": 0.0,
+        "brier": 0.00036428389480126544
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S44",
+        "n": 301,
+        "positive_rate": 0.009966777408637873,
+        "brier": 0.010095825440807086
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S44",
+        "n": 301,
+        "positive_rate": 0.006644518272425249,
+        "brier": 0.006870182897971079
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S61",
+        "n": 91,
+        "positive_rate": 0.03296703296703297,
+        "brier": 0.032009821577643364
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S66",
+        "n": 339,
+        "positive_rate": 0.008849557522123894,
+        "brier": 0.00903632360117931
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S79",
+        "n": 390,
+        "positive_rate": 0.010256410256410256,
+        "brier": 0.010315069118835785
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S88",
+        "n": 370,
+        "positive_rate": 0.008108108108108109,
+        "brier": 0.008257707329319769
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S123",
+        "n": 369,
+        "positive_rate": 0.06504065040650407,
+        "brier": 0.06188065065555538
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S66",
+        "n": 339,
+        "positive_rate": 0.02359882005899705,
+        "brier": 0.023014644890903106
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S78",
+        "n": 374,
+        "positive_rate": 0.05614973262032086,
+        "brier": 0.05354003360587528
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S900",
+        "n": 374,
+        "positive_rate": 0.040106951871657755,
+        "brier": 0.03852362466445299
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S94",
+        "n": 370,
+        "positive_rate": 0.043243243243243246,
+        "brier": 0.04144368278753535
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S07",
+        "n": 246,
+        "positive_rate": 0.032520325203252036,
+        "brier": 0.0314582575555446
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S104",
+        "n": 355,
+        "positive_rate": 0.008450704225352112,
+        "brier": 0.008506959197286895
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S121",
+        "n": 374,
+        "positive_rate": 0.06951871657754011,
+        "brier": 0.06618563949240085
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S221",
+        "n": 370,
+        "positive_rate": 0.01891891891891892,
+        "brier": 0.018560658425962228
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S223",
+        "n": 367,
+        "positive_rate": 0.008174386920980926,
+        "brier": 0.008358468560877018
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S226",
+        "n": 422,
+        "positive_rate": 0.004739336492890996,
+        "brier": 0.005104618251370342
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S33",
+        "n": 330,
+        "positive_rate": 0.01818181818181818,
+        "brier": 0.01795227622588731
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S89",
+        "n": 378,
+        "positive_rate": 0.023809523809523808,
+        "brier": 0.023228541912194846
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S900",
+        "n": 374,
+        "positive_rate": 0.0053475935828877,
+        "brier": 0.005588189175007164
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S120",
+        "n": 389,
+        "positive_rate": 0.07197943444730077,
+        "brier": 0.06821933868468268
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S219",
+        "n": 371,
+        "positive_rate": 0.08086253369272237,
+        "brier": 0.07647940868155455
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S50",
+        "n": 389,
+        "positive_rate": 0.033419023136246784,
+        "brier": 0.03221102187519962
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S81",
+        "n": 380,
+        "positive_rate": 0.039473684210526314,
+        "brier": 0.03792615657672471
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S100",
+        "n": 191,
+        "positive_rate": 0.020942408376963352,
+        "brier": 0.02044767498709304
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S108",
+        "n": 155,
+        "positive_rate": 0.0064516129032258064,
+        "brier": 0.006719822505963988
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S111",
+        "n": 346,
+        "positive_rate": 0.008670520231213872,
+        "brier": 0.008848283337725096
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S203",
+        "n": 370,
+        "positive_rate": 0.002702702702702703,
+        "brier": 0.0030381083640928465
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S204",
+        "n": 392,
+        "positive_rate": 0.030612244897959183,
+        "brier": 0.029559477781009
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S217",
+        "n": 378,
+        "positive_rate": 0.047619047619047616,
+        "brier": 0.04557180773819901
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S224",
+        "n": 362,
+        "positive_rate": 0.011049723756906077,
+        "brier": 0.01107183150809
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S226",
+        "n": 422,
+        "positive_rate": 0.018957345971563982,
+        "brier": 0.018621403072066754
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S35",
+        "n": 352,
+        "positive_rate": 0.022727272727272728,
+        "brier": 0.022255681708458198
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S64",
+        "n": 362,
+        "positive_rate": 0.024861878453038673,
+        "brier": 0.02420015898614877
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S77",
+        "n": 377,
+        "positive_rate": 0.015915119363395226,
+        "brier": 0.015691436944196897
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S113",
+        "n": 380,
+        "positive_rate": 0.06315789473684211,
+        "brier": 0.060031036269445434
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S227",
+        "n": 386,
+        "positive_rate": 0.06476683937823834,
+        "brier": 0.06148328043073105
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S230",
+        "n": 395,
+        "positive_rate": 0.05063291139240506,
+        "brier": 0.04819648533149141
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S33",
+        "n": 330,
+        "positive_rate": 0.11212121212121212,
+        "brier": 0.10591329200362588
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S40",
+        "n": 356,
+        "positive_rate": 0.0449438202247191,
+        "brier": 0.043048165306041934
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S40",
+        "n": 356,
+        "positive_rate": 0.03932584269662921,
+        "brier": 0.03782572832832375
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S69",
+        "n": 392,
+        "positive_rate": 0.02806122448979592,
+        "brier": 0.027188964030388594
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S113",
+        "n": 380,
+        "positive_rate": 0.007894736842105263,
+        "brier": 0.008011931710222976
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S115",
+        "n": 314,
+        "positive_rate": 0.009554140127388535,
+        "brier": 0.009677251255208063
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S121",
+        "n": 374,
+        "positive_rate": 0.05614973262032086,
+        "brier": 0.05372985584220948
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S203",
+        "n": 370,
+        "positive_rate": 0.024324324324324326,
+        "brier": 0.023690080683174228
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S209",
+        "n": 362,
+        "positive_rate": 0.008287292817679558,
+        "brier": 0.008616850993951769
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S212",
+        "n": 392,
+        "positive_rate": 0.015306122448979591,
+        "brier": 0.015146345801119024
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S33",
+        "n": 330,
+        "positive_rate": 0.0030303030303030303,
+        "brier": 0.00334860670572834
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S61",
+        "n": 91,
+        "positive_rate": 0.0,
+        "brier": 0.00038292750075779897
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S78",
+        "n": 374,
+        "positive_rate": 0.008021390374331552,
+        "brier": 0.008125312919451668
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S90",
+        "n": 371,
+        "positive_rate": 0.008086253369272238,
+        "brier": 0.00822735584441534
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S111",
+        "n": 346,
+        "positive_rate": 0.06069364161849711,
+        "brier": 0.05771509227800419
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S115",
+        "n": 314,
+        "positive_rate": 0.04777070063694268,
+        "brier": 0.04568662217231623
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S123",
+        "n": 369,
+        "positive_rate": 0.04607046070460705,
+        "brier": 0.04417155856816604
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S202",
+        "n": 69,
+        "positive_rate": 0.17391304347826086,
+        "brier": 0.16313303170276203
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S215",
+        "n": 338,
+        "positive_rate": 0.0621301775147929,
+        "brier": 0.059169155712152956
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S77",
+        "n": 377,
+        "positive_rate": 0.07427055702917772,
+        "brier": 0.07041119671672345
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S84",
+        "n": 330,
+        "positive_rate": 0.03939393939393939,
+        "brier": 0.03780488348780644
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S07",
+        "n": 246,
+        "positive_rate": 0.024390243902439025,
+        "brier": 0.023754783858833076
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S08",
+        "n": 386,
+        "positive_rate": 0.0051813471502590676,
+        "brier": 0.005466783915442879
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S100",
+        "n": 191,
+        "positive_rate": 0.031413612565445025,
+        "brier": 0.030387369836878796
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S207",
+        "n": 387,
+        "positive_rate": 0.015503875968992248,
+        "brier": 0.015302879515947566
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S220",
+        "n": 353,
+        "positive_rate": 0.0056657223796034,
+        "brier": 0.006099054376415736
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S227",
+        "n": 386,
+        "positive_rate": 0.012953367875647668,
+        "brier": 0.012936398934042808
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S228",
+        "n": 404,
+        "positive_rate": 0.022277227722772276,
+        "brier": 0.02172885314302586
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S229",
+        "n": 364,
+        "positive_rate": 0.03296703296703297,
+        "brier": 0.031807310364653715
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S35",
+        "n": 352,
+        "positive_rate": 0.019886363636363636,
+        "brier": 0.01954169992489285
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S43",
+        "n": 362,
+        "positive_rate": 0.03314917127071823,
+        "brier": 0.03197805500433948
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S81",
+        "n": 380,
+        "positive_rate": 0.010526315789473684,
+        "brier": 0.010580173158114952
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S207",
+        "n": 387,
+        "positive_rate": 0.08785529715762273,
+        "brier": 0.0832480439491212
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S213",
+        "n": 384,
+        "positive_rate": 0.06510416666666667,
+        "brier": 0.06191966439986665
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S217",
+        "n": 378,
+        "positive_rate": 0.05555555555555555,
+        "brier": 0.05298107077467646
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S230",
+        "n": 395,
+        "positive_rate": 0.043037974683544304,
+        "brier": 0.041153181394906466
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S90",
+        "n": 371,
+        "positive_rate": 0.04851752021563342,
+        "brier": 0.04644081414465264
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S100",
+        "n": 191,
+        "positive_rate": 0.020942408376963352,
+        "brier": 0.020444212751887538
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S117",
+        "n": 366,
+        "positive_rate": 0.00819672131147541,
+        "brier": 0.00833152057424224
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S123",
+        "n": 369,
+        "positive_rate": 0.032520325203252036,
+        "brier": 0.03143104267795211
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S202",
+        "n": 69,
+        "positive_rate": 0.057971014492753624,
+        "brier": 0.05530004643804532
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S214",
+        "n": 404,
+        "positive_rate": 0.0,
+        "brier": 0.0003850652511576011
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S221",
+        "n": 370,
+        "positive_rate": 0.013513513513513514,
+        "brier": 0.01341286569150505
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S223",
+        "n": 367,
+        "positive_rate": 0.008174386920980926,
+        "brier": 0.008310137472231933
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S40",
+        "n": 356,
+        "positive_rate": 0.014044943820224719,
+        "brier": 0.0138749662662325
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S50",
+        "n": 389,
+        "positive_rate": 0.005141388174807198,
+        "brier": 0.005418598818492155
+      },
+      {
+        "threshold_mm": 2.0,
+        "station_id": "S61",
+        "n": 91,
+        "positive_rate": 0.02197802197802198,
+        "brier": 0.02151455287636261
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S66",
+        "n": 339,
+        "positive_rate": 0.0,
+        "brier": 0.0005288531063979986
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S69",
+        "n": 392,
+        "positive_rate": 0.012755102040816327,
+        "brier": 0.012708386944825987
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S78",
+        "n": 374,
+        "positive_rate": 0.026737967914438502,
+        "brier": 0.025951549571412356
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S08",
+        "n": 386,
+        "positive_rate": 0.06735751295336788,
+        "brier": 0.0641221032704544
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S212",
+        "n": 392,
+        "positive_rate": 0.03316326530612245,
+        "brier": 0.031979233746674794
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S229",
+        "n": 364,
+        "positive_rate": 0.07967032967032966,
+        "brier": 0.07520871254903203
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S50",
+        "n": 389,
+        "positive_rate": 0.04884318766066838,
+        "brier": 0.04663639471930811
+      },
+      {
+        "threshold_mm": 0.0,
+        "station_id": "S61",
+        "n": 91,
+        "positive_rate": 0.10989010989010989,
+        "brier": 0.10439256046734348
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S71",
+        "n": 371,
+        "positive_rate": 0.0673854447439353,
+        "brier": 0.06393000684031575
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S77",
+        "n": 377,
+        "positive_rate": 0.03978779840848806,
+        "brier": 0.03819423256013897
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S84",
+        "n": 330,
+        "positive_rate": 0.03333333333333333,
+        "brier": 0.03213022038190209
+      },
+      {
+        "threshold_mm": 0.2,
+        "station_id": "S88",
+        "n": 370,
+        "positive_rate": 0.04864864864864865,
+        "brier": 0.046560262480306494
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S102",
+        "n": 71,
+        "positive_rate": 0.0,
+        "brier": 0.0003508444399870879
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S106",
+        "n": 230,
+        "positive_rate": 0.04782608695652174,
+        "brier": 0.0459474427970137
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S109",
+        "n": 357,
+        "positive_rate": 0.025210084033613446,
+        "brier": 0.024517337753504197
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S121",
+        "n": 374,
+        "positive_rate": 0.0106951871657754,
+        "brier": 0.010705645106982636
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S202",
+        "n": 69,
+        "positive_rate": 0.028985507246376812,
+        "brier": 0.028095137395702845
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S203",
+        "n": 370,
+        "positive_rate": 0.005405405405405406,
+        "brier": 0.0057576813088572685
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S203",
+        "n": 370,
+        "positive_rate": 0.002702702702702703,
+        "brier": 0.003131915292367766
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S208",
+        "n": 398,
+        "positive_rate": 0.005025125628140704,
+        "brier": 0.005307913734493957
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S212",
+        "n": 392,
+        "positive_rate": 0.002551020408163265,
+        "brier": 0.0028182111387181634
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S213",
+        "n": 384,
+        "positive_rate": 0.03125,
+        "brier": 0.030190921370619784
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S213",
+        "n": 384,
+        "positive_rate": 0.0078125,
+        "brier": 0.00787471080919218
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S215",
+        "n": 338,
+        "positive_rate": 0.026627218934911243,
+        "brier": 0.025873775180246417
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S223",
+        "n": 367,
+        "positive_rate": 0.0027247956403269754,
+        "brier": 0.003011164964220177
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S228",
+        "n": 404,
+        "positive_rate": 0.0594059405940594,
+        "brier": 0.056640909356935575
+      },
+      {
+        "threshold_mm": 0.5,
+        "station_id": "S229",
+        "n": 364,
+        "positive_rate": 0.054945054945054944,
+        "brier": 0.05229661928974374
+      },
+      {
+        "threshold_mm": 1.0,
+        "station_id": "S229",
+        "n": 364,
+        "positive_rate": 0.04120879120879121,
+        "brier": 0.039531792882020564
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S35",
+        "n": 352,
+        "positive_rate": 0.011363636363636364,
+        "brier": 0.011330094979074763
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S40",
+        "n": 356,
+        "positive_rate": 0.011235955056179775,
+        "brier": 0.011149362193402125
+      },
+      {
+        "threshold_mm": 10.0,
+        "station_id": "S50",
+        "n": 389,
+        "positive_rate": 0.0,
+        "brier": 0.00041612815711416433
+      },
+      {
+        "threshold_mm": 3.0,
+        "station_id": "S61",
+        "n": 91,
+        "positive_rate": 0.02197802197802198,
+        "brier": 0.021509440251662078
+      },
+      {
+        "threshold_mm": 5.0,
+        "station_id": "S77",
+        "n": 377,
+        "positive_rate": 0.002652519893899204,
+        "brier": 0.003061771991251898
+      }
+    ],
+    "month": [
+      {
+        "threshold_mm": 10.0,
+        "month": 4,
+        "n": 2816,
+        "positive_rate": 0.004616477272727273,
+        "brier": 0.004821545356903621
+      },
+      {
+        "threshold_mm": 2.0,
+        "month": 6,
+        "n": 2923,
+        "positive_rate": 0.01471091344509066,
+        "brier": 0.014561185853531007
+      },
+      {
+        "threshold_mm": 0.2,
+        "month": 5,
+        "n": 2995,
+        "positive_rate": 0.021035058430717863,
+        "brier": 0.020653059786293504
+      },
+      {
+        "threshold_mm": 0.0,
+        "month": 6,
+        "n": 2923,
+        "positive_rate": 0.056790968183373244,
+        "brier": 0.05411436608071099
+      },
+      {
+        "threshold_mm": 5.0,
+        "month": 6,
+        "n": 2923,
+        "positive_rate": 0.008894970920287376,
+        "brier": 0.0089709388764229
+      },
+      {
+        "threshold_mm": 5.0,
+        "month": 2,
+        "n": 2812,
+        "positive_rate": 0.016358463726884778,
+        "brier": 0.016118720721598843
+      },
+      {
+        "threshold_mm": 3.0,
+        "month": 8,
+        "n": 2879,
+        "positive_rate": 0.0093782563390066,
+        "brier": 0.00950088780222552
+      },
+      {
+        "threshold_mm": 1.0,
+        "month": 9,
+        "n": 2827,
+        "positive_rate": 0.01910152104704634,
+        "brier": 0.01874334389032844
+      },
+      {
+        "threshold_mm": 10.0,
+        "month": 2,
+        "n": 2812,
+        "positive_rate": 0.008534850640113799,
+        "brier": 0.008605342448563863
+      },
+      {
+        "threshold_mm": 0.2,
+        "month": 8,
+        "n": 2879,
+        "positive_rate": 0.03126085446335533,
+        "brier": 0.03015971007646985
+      },
+      {
+        "threshold_mm": 0.5,
+        "month": 3,
+        "n": 2881,
+        "positive_rate": 0.05900728913571676,
+        "brier": 0.056325855350994804
+      },
+      {
+        "threshold_mm": 5.0,
+        "month": 3,
+        "n": 2881,
+        "positive_rate": 0.010065949323151684,
+        "brier": 0.0100969713275947
+      },
+      {
+        "threshold_mm": 5.0,
+        "month": 7,
+        "n": 2962,
+        "positive_rate": 0.008777852802160702,
+        "brier": 0.008862999345305728
+      },
+      {
+        "threshold_mm": 2.0,
+        "month": 2,
+        "n": 2812,
+        "positive_rate": 0.029516358463726886,
+        "brier": 0.028626865969134215
+      },
+      {
+        "threshold_mm": 2.0,
+        "month": 4,
+        "n": 2816,
+        "positive_rate": 0.012428977272727272,
+        "brier": 0.012418662668600316
+      },
+      {
+        "threshold_mm": 3.0,
+        "month": 4,
+        "n": 2816,
+        "positive_rate": 0.009943181818181818,
+        "brier": 0.010021687810201983
+      },
+      {
+        "threshold_mm": 1.0,
+        "month": 6,
+        "n": 2923,
+        "positive_rate": 0.02257954156688334,
+        "brier": 0.02203406188722162
+      },
+      {
+        "threshold_mm": 10.0,
+        "month": 3,
+        "n": 2881,
+        "positive_rate": 0.0052065255119750084,
+        "brier": 0.005388318677469888
+      },
+      {
+        "threshold_mm": 5.0,
+        "month": 4,
+        "n": 2816,
+        "positive_rate": 0.006036931818181818,
+        "brier": 0.006246728187555845
+      },
+      {
+        "threshold_mm": 5.0,
+        "month": 8,
+        "n": 2879,
+        "positive_rate": 0.005210142410559222,
+        "brier": 0.005487153862241701
+      },
+      {
+        "threshold_mm": 2.0,
+        "month": 9,
+        "n": 2827,
+        "positive_rate": 0.013088079235939158,
+        "brier": 0.013045853610977933
+      },
+      {
+        "threshold_mm": 0.0,
+        "month": 2,
+        "n": 2812,
+        "positive_rate": 0.077524893314367,
+        "brier": 0.07351267271027227
+      },
+      {
+        "threshold_mm": 10.0,
+        "month": 6,
+        "n": 2923,
+        "positive_rate": 0.00376325692781389,
+        "brier": 0.003999220488756709
+      },
+      {
+        "threshold_mm": 0.5,
+        "month": 2,
+        "n": 2812,
+        "positive_rate": 0.05334281650071124,
+        "brier": 0.05098527620789476
+      },
+      {
+        "threshold_mm": 0.0,
+        "month": 7,
+        "n": 2962,
+        "positive_rate": 0.06549628629304524,
+        "brier": 0.06220468785160048
+      },
+      {
+        "threshold_mm": 0.2,
+        "month": 1,
+        "n": 2132,
+        "positive_rate": 0.11350844277673545,
+        "brier": 0.10713093612652942
+      },
+      {
+        "threshold_mm": 0.0,
+        "month": 3,
+        "n": 2881,
+        "positive_rate": 0.09371745921555015,
+        "brier": 0.08870761647783029
+      },
+      {
+        "threshold_mm": 10.0,
+        "month": 1,
+        "n": 2132,
+        "positive_rate": 0.0014071294559099437,
+        "brier": 0.001780902547074516
+      },
+      {
+        "threshold_mm": 3.0,
+        "month": 2,
+        "n": 2812,
+        "positive_rate": 0.025604551920341393,
+        "brier": 0.024932254347003694
+      },
+      {
+        "threshold_mm": 3.0,
+        "month": 3,
+        "n": 2881,
+        "positive_rate": 0.016660881638320028,
+        "brier": 0.01640233889470518
+      },
+      {
+        "threshold_mm": 10.0,
+        "month": 7,
+        "n": 2962,
+        "positive_rate": 0.005064145847400405,
+        "brier": 0.005254313143618182
+      },
+      {
+        "threshold_mm": 10.0,
+        "month": 9,
+        "n": 2827,
+        "positive_rate": 0.003537318712415989,
+        "brier": 0.003823051097127019
+      },
+      {
+        "threshold_mm": 0.0,
+        "month": 5,
+        "n": 2995,
+        "positive_rate": 0.03138564273789649,
+        "brier": 0.030399608247478914
+      },
+      {
+        "threshold_mm": 0.5,
+        "month": 6,
+        "n": 2923,
+        "positive_rate": 0.028395484091686622,
+        "brier": 0.027518124798030185
+      },
+      {
+        "threshold_mm": 0.5,
+        "month": 1,
+        "n": 2132,
+        "positive_rate": 0.07645403377110695,
+        "brier": 0.0725367294147751
+      },
+      {
+        "threshold_mm": 0.5,
+        "month": 8,
+        "n": 2879,
+        "positive_rate": 0.023619312261201807,
+        "brier": 0.023011261358601466
+      },
+      {
+        "threshold_mm": 5.0,
+        "month": 9,
+        "n": 2827,
+        "positive_rate": 0.007428369296073576,
+        "brier": 0.007609032687621418
+      },
+      {
+        "threshold_mm": 0.5,
+        "month": 5,
+        "n": 2995,
+        "positive_rate": 0.015692821368948246,
+        "brier": 0.015604718003775235
+      },
+      {
+        "threshold_mm": 0.2,
+        "month": 6,
+        "n": 2923,
+        "positive_rate": 0.04036948340745809,
+        "brier": 0.03873698142576111
+      },
+      {
+        "threshold_mm": 0.2,
+        "month": 7,
+        "n": 2962,
+        "positive_rate": 0.04929101958136394,
+        "brier": 0.04707118406161343
+      },
+      {
+        "threshold_mm": 3.0,
+        "month": 1,
+        "n": 2132,
+        "positive_rate": 0.009380863039399626,
+        "brier": 0.009495793768812147
+      },
+      {
+        "threshold_mm": 0.0,
+        "month": 9,
+        "n": 2827,
+        "positive_rate": 0.04916873010258224,
+        "brier": 0.046890803022034355
+      },
+      {
+        "threshold_mm": 0.2,
+        "month": 4,
+        "n": 2816,
+        "positive_rate": 0.036931818181818184,
+        "brier": 0.0355499468870567
+      },
+      {
+        "threshold_mm": 0.5,
+        "month": 7,
+        "n": 2962,
+        "positive_rate": 0.03578663065496286,
+        "brier": 0.03442897873018554
+      },
+      {
+        "threshold_mm": 0.5,
+        "month": 4,
+        "n": 2816,
+        "positive_rate": 0.02556818181818182,
+        "brier": 0.024884764770650755
+      },
+      {
+        "threshold_mm": 0.2,
+        "month": 2,
+        "n": 2812,
+        "positive_rate": 0.06578947368421052,
+        "brier": 0.06259404920762023
+      },
+      {
+        "threshold_mm": 10.0,
+        "month": 5,
+        "n": 2995,
+        "positive_rate": 0.002671118530884808,
+        "brier": 0.0029592139705000966
+      },
+      {
+        "threshold_mm": 3.0,
+        "month": 6,
+        "n": 2923,
+        "positive_rate": 0.012316113581936367,
+        "brier": 0.012267193508706776
+      },
+      {
+        "threshold_mm": 10.0,
+        "month": 8,
+        "n": 2879,
+        "positive_rate": 0.0020840569642236887,
+        "brier": 0.002418863586012601
+      },
+      {
+        "threshold_mm": 1.0,
+        "month": 1,
+        "n": 2132,
+        "positive_rate": 0.04878048780487805,
+        "brier": 0.04661671665811085
+      },
+      {
+        "threshold_mm": 2.0,
+        "month": 1,
+        "n": 2132,
+        "positive_rate": 0.020168855534709193,
+        "brier": 0.01972821334902751
+      },
+      {
+        "threshold_mm": 3.0,
+        "month": 7,
+        "n": 2962,
+        "positive_rate": 0.010465901417960837,
+        "brier": 0.010506509603929714
+      },
+      {
+        "threshold_mm": 0.0,
+        "month": 4,
+        "n": 2816,
+        "positive_rate": 0.049360795454545456,
+        "brier": 0.04720709599026504
+      },
+      {
+        "threshold_mm": 1.0,
+        "month": 5,
+        "n": 2995,
+        "positive_rate": 0.012020033388981636,
+        "brier": 0.012100023379461892
+      },
+      {
+        "threshold_mm": 5.0,
+        "month": 5,
+        "n": 2995,
+        "positive_rate": 0.004340567612687813,
+        "brier": 0.004636385256688695
+      },
+      {
+        "threshold_mm": 1.0,
+        "month": 7,
+        "n": 2962,
+        "positive_rate": 0.02160702228224173,
+        "brier": 0.02108489194656365
+      },
+      {
+        "threshold_mm": 1.0,
+        "month": 3,
+        "n": 2881,
+        "positive_rate": 0.040263797292606734,
+        "brier": 0.038720395530637323
+      },
+      {
+        "threshold_mm": 3.0,
+        "month": 5,
+        "n": 2995,
+        "positive_rate": 0.006343906510851419,
+        "brier": 0.006610498603931095
+      },
+      {
+        "threshold_mm": 0.0,
+        "month": 8,
+        "n": 2879,
+        "positive_rate": 0.04307051059395624,
+        "brier": 0.041200298058035906
+      },
+      {
+        "threshold_mm": 0.2,
+        "month": 9,
+        "n": 2827,
+        "positive_rate": 0.03678811460912628,
+        "brier": 0.03532175475110056
+      },
+      {
+        "threshold_mm": 1.0,
+        "month": 4,
+        "n": 2816,
+        "positive_rate": 0.020951704545454544,
+        "brier": 0.020521289326078284
+      },
+      {
+        "threshold_mm": 0.5,
+        "month": 9,
+        "n": 2827,
+        "positive_rate": 0.02794481782808631,
+        "brier": 0.027052416404461873
+      },
+      {
+        "threshold_mm": 5.0,
+        "month": 1,
+        "n": 2132,
+        "positive_rate": 0.005159474671669793,
+        "brier": 0.005441489832478058
+      },
+      {
+        "threshold_mm": 1.0,
+        "month": 2,
+        "n": 2812,
+        "positive_rate": 0.041251778093883355,
+        "brier": 0.0396688755085671
+      },
+      {
+        "threshold_mm": 0.2,
+        "month": 3,
+        "n": 2881,
+        "positive_rate": 0.07185005206525512,
+        "brier": 0.06829721972004407
+      },
+      {
+        "threshold_mm": 1.0,
+        "month": 8,
+        "n": 2879,
+        "positive_rate": 0.019451198332754428,
+        "brier": 0.01908047734068971
+      },
+      {
+        "threshold_mm": 2.0,
+        "month": 8,
+        "n": 2879,
+        "positive_rate": 0.013199027440083362,
+        "brier": 0.013147915074107982
+      },
+      {
+        "threshold_mm": 3.0,
+        "month": 9,
+        "n": 2827,
+        "positive_rate": 0.00955076052352317,
+        "brier": 0.009671796185564905
+      },
+      {
+        "threshold_mm": 2.0,
+        "month": 3,
+        "n": 2881,
+        "positive_rate": 0.02464422075668171,
+        "brier": 0.023989881895217
+      },
+      {
+        "threshold_mm": 0.0,
+        "month": 1,
+        "n": 2132,
+        "positive_rate": 0.1627579737335835,
+        "brier": 0.1531384253906833
+      },
+      {
+        "threshold_mm": 2.0,
+        "month": 5,
+        "n": 2995,
+        "positive_rate": 0.008013355592654424,
+        "brier": 0.008236143675373111
+      },
+      {
+        "threshold_mm": 2.0,
+        "month": 7,
+        "n": 2962,
+        "positive_rate": 0.01451721809588116,
+        "brier": 0.014369978070931539
+      }
+    ]
+  }
+}

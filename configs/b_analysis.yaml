@@ -1,0 +1,10 @@
+# Proposed adapter contract. A/C must approve before using real inputs.
+start: '2017-01-01'
+end: '2025-01-01'
+coverage_thresholds: [0.90, 0.95, 0.98]
+primary_coverage: 0.95
+alert_probability: 0.5  # Placeholder; C must provide a validation-frozen cutoff.
+reliability_bins: 10
+data_version: PENDING
+contract_confirmed: false
+fixture_only: false

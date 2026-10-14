@@ -1,0 +1,15 @@
+{
+  "seconds": 22.365687131881714,
+  "spark_config": {
+    "master": "local[4]",
+    "driver_memory": "4g",
+    "shuffle_partitions": 32,
+    "extra": {
+      "spark.sql.session.timeZone": "Asia/Singapore",
+      "spark.sql.legacy.timeParserPolicy": "CORRECTED",
+      "spark.sql.ansi.enabled": "false",
+      "spark.sql.parquet.compression.codec": "snappy"
+    }
+  },
+  "cpu_count": 10
+}

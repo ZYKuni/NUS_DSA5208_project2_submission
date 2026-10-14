@@ -1,0 +1,49 @@
+[
+  {
+    "figure": "F1_coverage.png",
+    "sources": [
+      "station_month"
+    ],
+    "caption": "All metadata stations; full calendar months, 288 expected slots/day. Zero coverage means no valid observations, not dry weather."
+  },
+  {
+    "figure": "F2_monthly.png",
+    "sources": [
+      "year_month"
+    ],
+    "caption": "Supplementary fixed reference stations (n=20); each year coverage >= 80%. Months with any reference station below 90% coverage are masked; raw table retains all values. Missingness may be nonrandom."
+  },
+  {
+    "figure": "F3_annual.png",
+    "sources": [
+      "annual_90",
+      "annual_95",
+      "annual_98"
+    ],
+    "caption": "Strict fixed stations, every month coverage passes the threshold. 90/95/98% sensitivity; partial-year intervals are not full annual totals."
+  },
+  {
+    "figure": "F3b_reference.png",
+    "sources": [
+      "reference_annual_75",
+      "reference_annual_80",
+      "reference_annual_82"
+    ],
+    "caption": "Supplementary fixed reference stations (n=20); each year coverage >= 80%. Rates normalize observed exposure, not nonrandom missingness; no complete-year rainfall ranking."
+  },
+  {
+    "figure": "F4_diurnal.png",
+    "sources": [
+      "hourly",
+      "station_hour"
+    ],
+    "caption": "Supplementary fixed reference stations (n=20); each year coverage >= 80%. Equal station means. Dry stations have undefined conditional wet intensity; wet_station_count records its different denominator."
+  },
+  {
+    "figure": "F5_spatial.png",
+    "sources": [
+      "spatial"
+    ],
+    "caption": "Supplementary fixed reference stations (n=20); each year coverage >= 80%. Coordinates must be confirmed stable by A. Station scatter, not an interpolated national map."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "figure": "F6_pr_auc.png",
+    "sources": [
+      "metrics"
+    ],
+    "caption": "Each q evaluated separately; single-class AUC is undefined. Spark exact-threshold trapezoidal PR area, not sklearn average precision."
+  },
+  {
+    "figure": "F7_reliability_0.png",
+    "sources": [
+      "reliability"
+    ],
+    "caption": "Equal-width probability bins [lower,upper); p=1 in final bin. Empty bins omitted, no confidence intervals assumed."
+  }
+]

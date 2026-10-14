@@ -1,0 +1,5 @@
+station_id,prediction_time,threshold_mm,future_30m_mm,label,label_available,raw_probability,calibrated_probability,prediction,decision_threshold,probability_source,split,model_id,feature_complete,is_fixture
+SYNTHETIC_A,2023-06-01T12:00:00+08:00,1.0,0.0,0,true,0.1,,0,0.5,raw,validation,SYNTHETIC_NOT_FOR_REPORTING,true,true
+SYNTHETIC_A,2023-06-01T13:00:00+08:00,1.0,2.0,1,true,0.8,,1,0.5,raw,validation,SYNTHETIC_NOT_FOR_REPORTING,true,true
+SYNTHETIC_B,2023-06-01T14:00:00+08:00,1.0,1.0,0,true,0.4,,0,0.5,raw,validation,SYNTHETIC_NOT_FOR_REPORTING,false,true
+SYNTHETIC_B,2023-06-01T15:00:00+08:00,1.0,3.0,1,true,0.7,,1,0.5,raw,validation,SYNTHETIC_NOT_FOR_REPORTING,true,true

@@ -1,0 +1,222 @@
+{
+  "by_year": [
+    {
+      "year": 2017,
+      "count": 5256020
+    },
+    {
+      "year": 2018,
+      "count": 4594246
+    },
+    {
+      "year": 2019,
+      "count": 5026862
+    },
+    {
+      "year": 2020,
+      "count": 6334473
+    },
+    {
+      "year": 2021,
+      "count": 7044646
+    },
+    {
+      "year": 2022,
+      "count": 7133230
+    },
+    {
+      "year": 2023,
+      "count": 6742890
+    },
+    {
+      "year": 2024,
+      "count": 6406260
+    }
+  ],
+  "checksums_match_A": true,
+  "schema": {
+    "type": "struct",
+    "fields": [
+      {
+        "name": "station_id",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "raw_timestamp",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "timestamp_sgt",
+        "type": "timestamp",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "rainfall_mm",
+        "type": "decimal(10,3)",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "station_name",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "station_device_id",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "latitude",
+        "type": "double",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "longitude",
+        "type": "double",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "update_timestamp",
+        "type": "timestamp",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "reading_update_timestamp",
+        "type": "timestamp",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "available_at",
+        "type": "timestamp",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "available_at_basis",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "align_shift_s",
+        "type": "integer",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "value_rounded",
+        "type": "boolean",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "n_raw_versions",
+        "type": "long",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "quality_flag",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "source_file",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "source_year",
+        "type": "integer",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "event_time",
+        "type": "timestamp",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "quality_ok",
+        "type": "boolean",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "year",
+        "type": "integer",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "month",
+        "type": "integer",
+        "nullable": true,
+        "metadata": {}
+      }
+    ]
+  },
+  "real_window": [
+    {
+      "event_time": "2017-01-01 12:20:00",
+      "rainfall_mm": "0.400",
+      "quality_ok": true
+    },
+    {
+      "event_time": "2017-01-01 12:25:00",
+      "rainfall_mm": "0.200",
+      "quality_ok": true
+    },
+    {
+      "event_time": "2017-01-01 12:30:00",
+      "rainfall_mm": "0.200",
+      "quality_ok": true
+    },
+    {
+      "event_time": "2017-01-01 12:35:00",
+      "rainfall_mm": "0.000",
+      "quality_ok": true
+    },
+    {
+      "event_time": "2017-01-01 12:40:00",
+      "rainfall_mm": "0.000",
+      "quality_ok": true
+    },
+    {
+      "event_time": "2017-01-01 12:45:00",
+      "rainfall_mm": "0.000",
+      "quality_ok": true
+    },
+    {
+      "event_time": "2017-01-01 12:50:00",
+      "rainfall_mm": "0.000",
+      "quality_ok": true
+    }
+  ],
+  "computed": {
+    "station_id": "S66",
+    "prediction_time": "2017-01-01 12:20:00",
+    "future_slots": 6,
+    "future_count": 6,
+    "label_available": true,
+    "label_drop_reason": null,
+    "future_30m_mm": "0.400"
+  },
+  "interval_end": "explicit assumption, not independently established by official metadata",
+  "availability": "event_time <= prediction_time AND available_at <= prediction_time AND available_at_basis = update_timestamps"
+}

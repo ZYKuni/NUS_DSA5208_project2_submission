@@ -1,0 +1,482 @@
+{
+  "kind": "GBT impurity importance",
+  "warning": "Predictive association, not causal attribution; correlated variables share signal.",
+  "features": [
+    {
+      "name": "station_vector_S33",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S94",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S90",
+      "value": 0.0008057634541111991
+    },
+    {
+      "name": "station_vector_S81",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S24",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S120",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S100",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S116",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S900",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S66",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S79",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S77",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S113",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S107",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S112",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S114",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S43",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S08",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S119",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S123",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S104",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S115",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S78",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S44",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S50",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S118",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S35",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S89",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S40",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S88",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S121",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S84",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S69",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S109",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S71",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S106",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S108",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S82",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S111",
+      "value": 0.0008476880683335466
+    },
+    {
+      "name": "station_vector_S215",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S11",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S61",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S92",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S122",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S29",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S117",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S07",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S46",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S91",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S64",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S60",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S217",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S211",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S226",
+      "value": 0.00016952453775591635
+    },
+    {
+      "name": "station_vector_S219",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S220",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S228",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S207",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S210",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S208",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S201",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S223",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S204",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S212",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S229",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S221",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S222",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S216",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S202",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S209",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S227",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S203",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S213",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S230",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S214",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S224",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S218",
+      "value": 0.0006278463882378378
+    },
+    {
+      "name": "station_vector_S36",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S205",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S55",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S101",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S102",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S105",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S63",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S96",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S24B",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S110",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector_S06",
+      "value": 0.0
+    },
+    {
+      "name": "station_vector___unknown",
+      "value": 0.0
+    },
+    {
+      "name": "hour_sin",
+      "value": 0.01711569576022925
+    },
+    {
+      "name": "hour_cos",
+      "value": 0.033813882758656516
+    },
+    {
+      "name": "doy_sin",
+      "value": 0.001105297679526187
+    },
+    {
+      "name": "doy_cos",
+      "value": 0.002543548231868366
+    },
+    {
+      "name": "log_threshold",
+      "value": 0.30531158662432367
+    },
+    {
+      "name": "lag_5",
+      "value": 0.0
+    },
+    {
+      "name": "lag_10",
+      "value": 0.06859398552043772
+    },
+    {
+      "name": "lag_15",
+      "value": 0.1642694993294865
+    },
+    {
+      "name": "lag_30",
+      "value": 0.00626815701139324
+    },
+    {
+      "name": "lag_60",
+      "value": 0.00828633810618671
+    },
+    {
+      "name": "missing_5",
+      "value": 0.0
+    },
+    {
+      "name": "missing_10",
+      "value": 0.0
+    },
+    {
+      "name": "missing_15",
+      "value": 0.001438172023771904
+    },
+    {
+      "name": "missing_30",
+      "value": 0.0
+    },
+    {
+      "name": "missing_60",
+      "value": 0.0
+    },
+    {
+      "name": "sum_15",
+      "value": 0.0
+    },
+    {
+      "name": "count_15",
+      "value": 0.0
+    },
+    {
+      "name": "max_15",
+      "value": 0.0
+    },
+    {
+      "name": "wet_15",
+      "value": 0.0
+    },
+    {
+      "name": "sum_30",
+      "value": 0.12594231747233525
+    },
+    {
+      "name": "count_30",
+      "value": 0.0061160031531336785
+    },
+    {
+      "name": "max_30",
+      "value": 0.09267304108903009
+    },
+    {
+      "name": "wet_30",
+      "value": 0.0
+    },
+    {
+      "name": "sum_60",
+      "value": 0.06091733357241258
+    },
+    {
+      "name": "count_60",
+      "value": 0.0
+    },
+    {
+      "name": "max_60",
+      "value": 0.04668167893329821
+    },
+    {
+      "name": "wet_60",
+      "value": 0.032169366821113016
+    },
+    {
+      "name": "recent_change",
+      "value": 0.022482744430338278
+    },
+    {
+      "name": "staleness_minutes",
+      "value": 0.0018205290340202746
+    },
+    {
+      "name": "no_recent_data",
+      "value": 0.0
+    }
+  ]
+}

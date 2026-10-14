@@ -1,0 +1,42 @@
+[
+  {
+    "split": "calibration",
+    "origins": 8500,
+    "stations": 67,
+    "start": "2023-10-01 00:15:00",
+    "end": "2023-12-31 23:25:00",
+    "mean_known_60m_slots": 9.326235294117646,
+    "no_recent_fraction": 0.04941176470588235,
+    "complete_fraction": 0.0
+  },
+  {
+    "split": "train",
+    "origins": 69149,
+    "stations": 88,
+    "start": "2017-01-01 08:05:00",
+    "end": "2022-12-31 23:25:00",
+    "mean_known_60m_slots": 9.314277863743511,
+    "no_recent_fraction": 0.03433166061692866,
+    "complete_fraction": 0.0
+  },
+  {
+    "split": "test",
+    "origins": 31798,
+    "stations": 70,
+    "start": "2024-01-01 00:10:00",
+    "end": "2024-12-31 23:20:00",
+    "mean_known_60m_slots": 9.62208314988364,
+    "no_recent_fraction": 0.027328762815271402,
+    "complete_fraction": 0.0
+  },
+  {
+    "split": "validation",
+    "origins": 25227,
+    "stations": 73,
+    "start": "2023-01-01 00:00:00",
+    "end": "2023-09-30 23:25:00",
+    "mean_known_60m_slots": 9.28350576762992,
+    "no_recent_fraction": 0.05145280849883062,
+    "complete_fraction": 0.0
+  }
+]

@@ -1,0 +1,13 @@
+# Rule frozen after reviewing coverage only; before viewing rainfall aggregates.
+start: '2017-01-01'
+end: '2025-01-01'
+coverage_thresholds: [0.90, 0.95, 0.98]
+primary_coverage: 0.95
+reference_annual_coverage: 0.80
+reference_thresholds: [0.75, 0.80, 0.82]
+display_min_monthly_coverage: 0.90
+alert_probability: 0.5  # EDA only; C adapter uses supplied per-group thresholds.
+reliability_bins: 10
+data_version: 'A-d90f400-exact-eight-SHA256-reproduction'
+contract_confirmed: true  # B adapter verified against A supplied schema; not whole-team signoff.
+fixture_only: false

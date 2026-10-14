@@ -1,0 +1,27 @@
+{
+  "interface_version": "c_safe_v2",
+  "base_v1_zip_sha256": "42b149156ee9e9ec99f203cb4a26f911ad4937852a7fb43731c559a1a04dc3a9",
+  "v1_frozen_manifest_sha256": "23b696dc8df0d53fd9ea6e628c782eee8f8c3f9899f3be8f64fbbc6f85598b45",
+  "model_weights_changed": false,
+  "v1_source_and_feature_hashes_unchanged": true,
+  "fixed_knots_mm": [
+    0.0,
+    0.2,
+    1.0,
+    2.0,
+    5.0,
+    10.0
+  ],
+  "supported_threshold_mm": [
+    0,
+    10
+  ],
+  "postprocessing": "equal-weight decreasing PAVA then linear interpolation in mm",
+  "holdout_metrics": "not evaluated for v2; all existing test_*.json describe v1 only",
+  "source_hashes": {
+    "src/predict_safe.py": "1290a4187ce28782cf154f2ef48faa299b17e96df226eaef2691dec5921c9cf6",
+    "src/verify_safe.py": "9a9001c9f7d9c130021f53d43161adab99379ca7a912f562ba5f3233b1ef52dc",
+    "src/package_safe.py": "27c162846cd204a32409421201c10a7dcfc13103e149a8b124227542a793dfec",
+    "tests/test_c_safe_inference.py": "5b54cfd2e2f63846b9953206c7711266fc6d5b96d5b0e435e63be628f2ab1af8"
+  }
+}

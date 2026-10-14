@@ -1,0 +1,9 @@
+start: '2023-01-01'
+end: '2024-01-01'
+coverage_thresholds: [0.90, 0.95, 0.98]
+primary_coverage: 0.95
+alert_probability: 0.5
+reliability_bins: 10
+data_version: C-60169d1-prediction-fixture-v0.1
+contract_confirmed: false
+fixture_only: true

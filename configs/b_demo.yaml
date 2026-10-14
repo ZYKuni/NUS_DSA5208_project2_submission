@@ -1,0 +1,9 @@
+start: '2023-12-01'
+end: '2024-02-01'
+coverage_thresholds: [0.90, 0.95, 0.98]
+primary_coverage: 0.95
+alert_probability: 0.5
+reliability_bins: 10
+data_version: SYNTHETIC-B-v1
+contract_confirmed: false
+fixture_only: true

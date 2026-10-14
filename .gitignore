@@ -1,0 +1,72 @@
+# OS / editor metadata
+.DS_Store
+._*
+.idea/
+.vscode/
+
+# Python environment and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local credentials / environment files
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+service-account*.json
+
+# Large data; preserve empty directory scaffolding
+/data/raw/*
+!/data/raw/.gitkeep
+/data/clean/*
+!/data/clean/.gitkeep
+/data/features/*
+!/data/features/.gitkeep
+!/data/features/c_available_v1/
+/data/predictions/*
+!/data/predictions/c_available_v1/
+/output/
+/data/interim/
+
+# Submitted trained models are tracked; other runs stay local
+/models/final/*
+!/models/final/.gitkeep
+!/models/final/c_available_v1/
+
+# Execution outputs and Spark local state
+/logs/*
+!/logs/.gitkeep
+*.log
+spark-warehouse/
+metastore_db/
+derby.log
+.sparkStaging/
+artifacts/
+hs_err_pid*
+replay_pid*
+
+# B local runtime and explicitly synthetic demo outputs
+.runtime/
+/reports/demo_b*/
+
+/reports/b_reproduction/
+/data/b_manifest.csv
+/reports/b_results/tables/
+/reports/b_results/windows/
+/reports/b_c_handoff/tables/
+
+/reports/b_results/extremes/
+/reports/b_results/figures_reviewed/

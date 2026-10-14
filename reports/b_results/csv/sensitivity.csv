@@ -1,0 +1,4 @@
+coverage_threshold,station_count,required_months
+0.9,0,96
+0.95,0,96
+0.98,0,96

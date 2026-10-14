@@ -1,0 +1,4 @@
+case_id,case_station,anchor,target_future_mm,neighbor_station_count,complete_neighbor_count,neighbor_valid_slots,neighbor_wet_slots,max_neighbor_5min_mm
+S107_20220821_1955,S107,2022-08-21 19:55:00+08:00,85.6,8,8,48,0,0.0
+S64_20181110_1645,S64,2018-11-10 16:45:00+08:00,71.8,11,11,66,42,8.2
+S69_20171116_1430,S69,2017-11-16 14:30:00+08:00,71.6,12,12,72,19,4.6

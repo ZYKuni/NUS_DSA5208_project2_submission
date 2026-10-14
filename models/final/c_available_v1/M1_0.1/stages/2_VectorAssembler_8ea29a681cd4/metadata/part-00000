@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1791293800303,"sparkVersion":"3.5.8","uid":"VectorAssembler_8ea29a681cd4","paramMap":{"outputCol":"features","inputCols":["station_vector","hour_sin","hour_cos","doy_sin","doy_cos","log_threshold"]},"defaultParamMap":{"handleInvalid":"error","outputCol":"VectorAssembler_8ea29a681cd4__output"}}

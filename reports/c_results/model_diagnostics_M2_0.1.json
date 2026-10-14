@@ -1,0 +1,482 @@
+{
+  "kind": "LR original-scale coefficient",
+  "warning": "Predictive association, not causal attribution; correlated variables share signal.",
+  "features": [
+    {
+      "name": "station_vector_S33",
+      "value": 0.03800743528491035
+    },
+    {
+      "name": "station_vector_S94",
+      "value": -0.034207155350591906
+    },
+    {
+      "name": "station_vector_S90",
+      "value": 0.010603774714284366
+    },
+    {
+      "name": "station_vector_S81",
+      "value": -0.006088374418888867
+    },
+    {
+      "name": "station_vector_S24",
+      "value": -0.03718146952745985
+    },
+    {
+      "name": "station_vector_S120",
+      "value": 0.0024496467680167715
+    },
+    {
+      "name": "station_vector_S100",
+      "value": -0.031523147896500965
+    },
+    {
+      "name": "station_vector_S116",
+      "value": -0.011238581055353471
+    },
+    {
+      "name": "station_vector_S900",
+      "value": -0.01921871818062312
+    },
+    {
+      "name": "station_vector_S66",
+      "value": 0.0585004773595616
+    },
+    {
+      "name": "station_vector_S79",
+      "value": 0.005564766465847033
+    },
+    {
+      "name": "station_vector_S77",
+      "value": 0.04697259651894219
+    },
+    {
+      "name": "station_vector_S113",
+      "value": 0.0037435699934744667
+    },
+    {
+      "name": "station_vector_S107",
+      "value": -0.04252149109233436
+    },
+    {
+      "name": "station_vector_S112",
+      "value": -0.02194241632295008
+    },
+    {
+      "name": "station_vector_S114",
+      "value": 0.013307649131182653
+    },
+    {
+      "name": "station_vector_S43",
+      "value": 0.012211461055334839
+    },
+    {
+      "name": "station_vector_S08",
+      "value": -0.002939528892009865
+    },
+    {
+      "name": "station_vector_S119",
+      "value": 0.01108162933731816
+    },
+    {
+      "name": "station_vector_S123",
+      "value": -0.007102830870250386
+    },
+    {
+      "name": "station_vector_S104",
+      "value": -0.0038826824331378088
+    },
+    {
+      "name": "station_vector_S115",
+      "value": 0.008272680372651362
+    },
+    {
+      "name": "station_vector_S78",
+      "value": -0.01294890223865258
+    },
+    {
+      "name": "station_vector_S44",
+      "value": 0.009944122472917583
+    },
+    {
+      "name": "station_vector_S50",
+      "value": 0.00798849388150587
+    },
+    {
+      "name": "station_vector_S118",
+      "value": -0.01891160710625493
+    },
+    {
+      "name": "station_vector_S35",
+      "value": -0.021800475296432614
+    },
+    {
+      "name": "station_vector_S89",
+      "value": -0.010527240100097167
+    },
+    {
+      "name": "station_vector_S40",
+      "value": -0.019489284129797512
+    },
+    {
+      "name": "station_vector_S88",
+      "value": -0.043757491357034224
+    },
+    {
+      "name": "station_vector_S121",
+      "value": -0.006986003021978471
+    },
+    {
+      "name": "station_vector_S84",
+      "value": 0.011393720211602851
+    },
+    {
+      "name": "station_vector_S69",
+      "value": 0.018625732662268142
+    },
+    {
+      "name": "station_vector_S109",
+      "value": 0.030366313972497047
+    },
+    {
+      "name": "station_vector_S71",
+      "value": 0.05458386471779073
+    },
+    {
+      "name": "station_vector_S106",
+      "value": -0.05963296296521525
+    },
+    {
+      "name": "station_vector_S108",
+      "value": -0.0017396427623814692
+    },
+    {
+      "name": "station_vector_S82",
+      "value": -0.020866985209080143
+    },
+    {
+      "name": "station_vector_S111",
+      "value": 0.010602508245118445
+    },
+    {
+      "name": "station_vector_S215",
+      "value": -0.008963995068306621
+    },
+    {
+      "name": "station_vector_S11",
+      "value": -0.013041190403678155
+    },
+    {
+      "name": "station_vector_S61",
+      "value": -0.029755709451898857
+    },
+    {
+      "name": "station_vector_S92",
+      "value": 0.013184950886455646
+    },
+    {
+      "name": "station_vector_S122",
+      "value": -0.011735573961546042
+    },
+    {
+      "name": "station_vector_S29",
+      "value": -0.03208493404686151
+    },
+    {
+      "name": "station_vector_S117",
+      "value": -0.029801524877773572
+    },
+    {
+      "name": "station_vector_S07",
+      "value": -0.04881812614243686
+    },
+    {
+      "name": "station_vector_S46",
+      "value": -0.03586790726370808
+    },
+    {
+      "name": "station_vector_S91",
+      "value": 0.008895351399389354
+    },
+    {
+      "name": "station_vector_S64",
+      "value": -0.006603760170615298
+    },
+    {
+      "name": "station_vector_S60",
+      "value": -0.0298788455199743
+    },
+    {
+      "name": "station_vector_S217",
+      "value": -0.043074930140384646
+    },
+    {
+      "name": "station_vector_S211",
+      "value": 0.005540486572739239
+    },
+    {
+      "name": "station_vector_S226",
+      "value": 0.03451684584448351
+    },
+    {
+      "name": "station_vector_S219",
+      "value": 0.057088982397752196
+    },
+    {
+      "name": "station_vector_S220",
+      "value": 0.09945641052086021
+    },
+    {
+      "name": "station_vector_S228",
+      "value": 0.0171853217865271
+    },
+    {
+      "name": "station_vector_S207",
+      "value": -0.02661922921756084
+    },
+    {
+      "name": "station_vector_S210",
+      "value": 0.029793883076597295
+    },
+    {
+      "name": "station_vector_S208",
+      "value": 0.05948457389121891
+    },
+    {
+      "name": "station_vector_S201",
+      "value": -0.01070046813207602
+    },
+    {
+      "name": "station_vector_S223",
+      "value": 0.02116361137604221
+    },
+    {
+      "name": "station_vector_S204",
+      "value": 0.016422458483033295
+    },
+    {
+      "name": "station_vector_S212",
+      "value": -0.02726095689104499
+    },
+    {
+      "name": "station_vector_S229",
+      "value": 0.055371804437859384
+    },
+    {
+      "name": "station_vector_S221",
+      "value": -0.0309834654336861
+    },
+    {
+      "name": "station_vector_S222",
+      "value": 0.03833385423484114
+    },
+    {
+      "name": "station_vector_S216",
+      "value": 0.09900158466264111
+    },
+    {
+      "name": "station_vector_S202",
+      "value": 0.04532245854798455
+    },
+    {
+      "name": "station_vector_S209",
+      "value": 0.06244632393734508
+    },
+    {
+      "name": "station_vector_S227",
+      "value": 0.019377504914641512
+    },
+    {
+      "name": "station_vector_S203",
+      "value": 0.04540142023154261
+    },
+    {
+      "name": "station_vector_S213",
+      "value": -0.03541023155390341
+    },
+    {
+      "name": "station_vector_S230",
+      "value": 0.07750075317938727
+    },
+    {
+      "name": "station_vector_S214",
+      "value": -0.012277977179396497
+    },
+    {
+      "name": "station_vector_S224",
+      "value": -0.05508951135433944
+    },
+    {
+      "name": "station_vector_S218",
+      "value": 0.025460450949236053
+    },
+    {
+      "name": "station_vector_S36",
+      "value": -0.027196157531675463
+    },
+    {
+      "name": "station_vector_S205",
+      "value": 0.02050071000017431
+    },
+    {
+      "name": "station_vector_S55",
+      "value": 0.02462295127968957
+    },
+    {
+      "name": "station_vector_S101",
+      "value": 0.08179082220623403
+    },
+    {
+      "name": "station_vector_S102",
+      "value": -0.08994759691586833
+    },
+    {
+      "name": "station_vector_S105",
+      "value": -0.08817861124919638
+    },
+    {
+      "name": "station_vector_S63",
+      "value": -0.06798484544591718
+    },
+    {
+      "name": "station_vector_S96",
+      "value": -0.06254271833442698
+    },
+    {
+      "name": "station_vector_S24B",
+      "value": -0.15626080330296463
+    },
+    {
+      "name": "station_vector_S110",
+      "value": -0.06627782955490498
+    },
+    {
+      "name": "station_vector_S06",
+      "value": -0.040822802770484626
+    },
+    {
+      "name": "station_vector___unknown",
+      "value": 0.0
+    },
+    {
+      "name": "hour_sin",
+      "value": -0.021733047795702218
+    },
+    {
+      "name": "hour_cos",
+      "value": -0.07873594394869138
+    },
+    {
+      "name": "doy_sin",
+      "value": -0.01596300218364596
+    },
+    {
+      "name": "doy_cos",
+      "value": 0.016209583012023774
+    },
+    {
+      "name": "log_threshold",
+      "value": -0.17992324401702237
+    },
+    {
+      "name": "lag_5",
+      "value": 0.0
+    },
+    {
+      "name": "lag_10",
+      "value": 0.07616366190894056
+    },
+    {
+      "name": "lag_15",
+      "value": 0.10809477277466854
+    },
+    {
+      "name": "lag_30",
+      "value": -0.027853930958659154
+    },
+    {
+      "name": "lag_60",
+      "value": 0.07610979211823167
+    },
+    {
+      "name": "missing_5",
+      "value": 0.15831818716091464
+    },
+    {
+      "name": "missing_10",
+      "value": 0.03742776215336868
+    },
+    {
+      "name": "missing_15",
+      "value": 0.027771615335719136
+    },
+    {
+      "name": "missing_30",
+      "value": -0.002119496899425018
+    },
+    {
+      "name": "missing_60",
+      "value": -0.01031531958846971
+    },
+    {
+      "name": "sum_15",
+      "value": 0.07616366190894056
+    },
+    {
+      "name": "count_15",
+      "value": -0.03744260988262756
+    },
+    {
+      "name": "max_15",
+      "value": 0.07616366190894056
+    },
+    {
+      "name": "wet_15",
+      "value": 0.7624185030259913
+    },
+    {
+      "name": "sum_30",
+      "value": 0.015886184687430943
+    },
+    {
+      "name": "count_30",
+      "value": -0.012295472848315966
+    },
+    {
+      "name": "max_30",
+      "value": 0.10719145980513554
+    },
+    {
+      "name": "wet_30",
+      "value": 0.309415847661661
+    },
+    {
+      "name": "sum_60",
+      "value": 0.0002936082583145087
+    },
+    {
+      "name": "count_60",
+      "value": -0.002582396995382262
+    },
+    {
+      "name": "max_60",
+      "value": 0.06846903515793618
+    },
+    {
+      "name": "wet_60",
+      "value": 0.12844260824039055
+    },
+    {
+      "name": "recent_change",
+      "value": -0.010647750184513865
+    },
+    {
+      "name": "staleness_minutes",
+      "value": 0.00038657743719136545
+    },
+    {
+      "name": "no_recent_data",
+      "value": -0.01240894483681702
+    }
+  ]
+}

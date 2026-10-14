@@ -1,0 +1,9 @@
+source_year,rows,null_date,null_timestamp,null_update_timestamp,null_station_id,null_station_name,null_station_device_id,null_location_longitude,null_location_latitude,null_reading_update_timestamp,null_reading_value,null_reading_type,null_reading_unit,value_non_numeric,value_negative,value_zero,value_positive,value_gt3_decimals,value_max,lat_unparseable,lon_unparseable,station_id_ne_device_id
+2017,5256106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5107409,148697,137,18.000,0,0,0
+2018,4594246,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4461822,132424,185,15.600,0,0,0
+2019,5026862,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4929580,97282,118,15.400,0,0,0
+2020,6334473,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6141770,192703,273,20.600,0,0,0
+2021,7044646,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6830137,214509,351,26.400,0,0,0
+2022,7133230,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6912931,220299,377,37.200,0,0,0
+2023,6742890,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6527133,215757,332,17.622,0,0,0
+2024,6406260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6210948,195312,254,15.912,0,0,0

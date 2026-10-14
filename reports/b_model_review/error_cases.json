@@ -1,0 +1,330 @@
+[
+  {
+    "kind": "false_negative",
+    "station_id": "S217",
+    "prediction_time": "2024-12-29T16:30:00+08:00",
+    "threshold_mm": 10.0,
+    "label": 1.0,
+    "future_30m_mm": "46.689",
+    "v1_probability": 0.08060453400503778,
+    "v2_probability": 0.08060453400503778,
+    "records": [
+      {
+        "offset_minutes": -60.0,
+        "event_time": "2024-12-29T15:30:00+08:00",
+        "rainfall_mm": 1.379,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1735457729
+      },
+      {
+        "offset_minutes": -55.0,
+        "event_time": "2024-12-29T15:35:00+08:00",
+        "rainfall_mm": 0.591,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1735458026
+      },
+      {
+        "offset_minutes": -50.0,
+        "event_time": "2024-12-29T15:40:00+08:00",
+        "rainfall_mm": 0.394,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1735458324
+      },
+      {
+        "offset_minutes": -45.0,
+        "event_time": "2024-12-29T15:45:00+08:00",
+        "rainfall_mm": 0.197,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1735458626
+      },
+      {
+        "offset_minutes": -40.0,
+        "event_time": "2024-12-29T15:50:00+08:00",
+        "rainfall_mm": 0.0,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1735458924
+      },
+      {
+        "offset_minutes": -35.0,
+        "event_time": "2024-12-29T15:55:00+08:00",
+        "rainfall_mm": 0.0,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1735459225
+      },
+      {
+        "offset_minutes": -30.0,
+        "event_time": "2024-12-29T16:00:00+08:00",
+        "rainfall_mm": 0.0,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1735459543
+      },
+      {
+        "offset_minutes": -25.0,
+        "event_time": "2024-12-29T16:05:00+08:00",
+        "rainfall_mm": 1.576,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1735459824
+      },
+      {
+        "offset_minutes": -20.0,
+        "event_time": "2024-12-29T16:10:00+08:00",
+        "rainfall_mm": 1.576,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1735460124
+      },
+      {
+        "offset_minutes": -15.0,
+        "event_time": "2024-12-29T16:15:00+08:00",
+        "rainfall_mm": 0.788,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1735460424
+      },
+      {
+        "offset_minutes": -10.0,
+        "event_time": "2024-12-29T16:20:00+08:00",
+        "rainfall_mm": 0.394,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1735460724
+      },
+      {
+        "offset_minutes": -5.0,
+        "event_time": "2024-12-29T16:25:00+08:00",
+        "rainfall_mm": 0.197,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1735461025
+      },
+      {
+        "offset_minutes": 0.0,
+        "event_time": "2024-12-29T16:30:00+08:00",
+        "rainfall_mm": 0.0,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1735461340
+      },
+      {
+        "offset_minutes": 5.0,
+        "event_time": "2024-12-29T16:35:00+08:00",
+        "rainfall_mm": 0.394,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1735462240
+      },
+      {
+        "offset_minutes": 10.0,
+        "event_time": "2024-12-29T16:40:00+08:00",
+        "rainfall_mm": 11.229,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1735461924
+      },
+      {
+        "offset_minutes": 15.0,
+        "event_time": "2024-12-29T16:45:00+08:00",
+        "rainfall_mm": 11.623,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1735462840
+      },
+      {
+        "offset_minutes": 20.0,
+        "event_time": "2024-12-29T16:50:00+08:00",
+        "rainfall_mm": 9.85,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1735462524
+      },
+      {
+        "offset_minutes": 25.0,
+        "event_time": "2024-12-29T16:55:00+08:00",
+        "rainfall_mm": 9.259,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1735462840
+      },
+      {
+        "offset_minutes": 30.0,
+        "event_time": "2024-12-29T17:00:00+08:00",
+        "rainfall_mm": 4.334,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1735463135
+      }
+    ]
+  },
+  {
+    "kind": "false_positive",
+    "station_id": "S07",
+    "prediction_time": "2024-01-10T08:30:00+08:00",
+    "threshold_mm": 0.0,
+    "label": 0.0,
+    "future_30m_mm": "0.000",
+    "v1_probability": 1.0,
+    "v2_probability": 1.0,
+    "records": [
+      {
+        "offset_minutes": -60.0,
+        "event_time": "2024-01-10T07:30:00+08:00",
+        "rainfall_mm": 0.0,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1704843329
+      },
+      {
+        "offset_minutes": -55.0,
+        "event_time": "2024-01-10T07:35:00+08:00",
+        "rainfall_mm": 0.2,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1704843641
+      },
+      {
+        "offset_minutes": -50.0,
+        "event_time": "2024-01-10T07:40:00+08:00",
+        "rainfall_mm": 2.2,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1704843933
+      },
+      {
+        "offset_minutes": -45.0,
+        "event_time": "2024-01-10T07:45:00+08:00",
+        "rainfall_mm": 1.8,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1704844229
+      },
+      {
+        "offset_minutes": -40.0,
+        "event_time": "2024-01-10T07:50:00+08:00",
+        "rainfall_mm": 3.4,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1704844529
+      },
+      {
+        "offset_minutes": -35.0,
+        "event_time": "2024-01-10T07:55:00+08:00",
+        "rainfall_mm": 4.2,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1704844829
+      },
+      {
+        "offset_minutes": -30.0,
+        "event_time": "2024-01-10T08:00:00+08:00",
+        "rainfall_mm": 4.4,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1704845428
+      },
+      {
+        "offset_minutes": -25.0,
+        "event_time": "2024-01-10T08:05:00+08:00",
+        "rainfall_mm": 3.4,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1704845428
+      },
+      {
+        "offset_minutes": -20.0,
+        "event_time": "2024-01-10T08:10:00+08:00",
+        "rainfall_mm": 1.0,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1704845734
+      },
+      {
+        "offset_minutes": -15.0,
+        "event_time": "2024-01-10T08:15:00+08:00",
+        "rainfall_mm": 1.0,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1704846029
+      },
+      {
+        "offset_minutes": -10.0,
+        "event_time": "2024-01-10T08:20:00+08:00",
+        "rainfall_mm": 1.8,
+        "available_at_prediction": true,
+        "quality_ok": true,
+        "available_epoch": 1704846329
+      },
+      {
+        "offset_minutes": -5.0,
+        "event_time": "2024-01-10T08:25:00+08:00",
+        "rainfall_mm": 0.4,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1704846628
+      },
+      {
+        "offset_minutes": 0.0,
+        "event_time": "2024-01-10T08:30:00+08:00",
+        "rainfall_mm": 0.2,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1704846929
+      },
+      {
+        "offset_minutes": 5.0,
+        "event_time": "2024-01-10T08:35:00+08:00",
+        "rainfall_mm": 0.0,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1704847229
+      },
+      {
+        "offset_minutes": 10.0,
+        "event_time": "2024-01-10T08:40:00+08:00",
+        "rainfall_mm": 0.0,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1704847529
+      },
+      {
+        "offset_minutes": 15.0,
+        "event_time": "2024-01-10T08:45:00+08:00",
+        "rainfall_mm": 0.0,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1704847840
+      },
+      {
+        "offset_minutes": 20.0,
+        "event_time": "2024-01-10T08:50:00+08:00",
+        "rainfall_mm": 0.0,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1704848132
+      },
+      {
+        "offset_minutes": 25.0,
+        "event_time": "2024-01-10T08:55:00+08:00",
+        "rainfall_mm": 0.0,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1704848430
+      },
+      {
+        "offset_minutes": 30.0,
+        "event_time": "2024-01-10T09:00:00+08:00",
+        "rainfall_mm": 0.0,
+        "available_at_prediction": false,
+        "quality_ok": true,
+        "available_epoch": 1704848729
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "path": "output/c_handoff_v1.zip",
+  "bytes": 19198366,
+  "sha256": "42b149156ee9e9ec99f203cb4a26f911ad4937852a7fb43731c559a1a04dc3a9",
+  "members": 395,
+  "zip_crc_verified": true,
+  "includes": [
+    "source/config/tests/docs/report aggregates/figures",
+    "all candidate models and winner calibrators",
+    "validation/calibration/test predictions",
+    "sampled prepared feature table"
+  ],
+  "excludes": [
+    "raw and clean rainfall (reproduce with downloader/cleaner)",
+    "full-population base labels",
+    "virtualenv",
+    "credentials",
+    "group final PDF"
+  ],
+  "release_tag": "c-models-v1",
+  "release_target_commit": "c0885c55f58c9a36e85e1c43b52a40d5fd815a3c",
+  "release_url": "https://github.com/ZYKuni/NUS_DSA5208_project2/releases/tag/c-models-v1",
+  "download_url": "https://github.com/ZYKuni/NUS_DSA5208_project2/releases/download/c-models-v1/c_handoff_v1.zip",
+  "checksum_url": "https://github.com/ZYKuni/NUS_DSA5208_project2/releases/download/c-models-v1/c_handoff_v1.zip.sha256",
+  "note": "Original frozen ZIP distributed via GitHub pre-release; code/docs remain in PR #3. Repository access required. No model changes, PR merge or Canvas submission."
+}
